@@ -1,6 +1,4 @@
 # Talks & invited presentations, most recent first.
-# TEMPLATE — fill in your actual talks. The entries below are PLACEHOLDERS
-# derived from your papers (conference presentations); correct or replace them.
 # Each:
 #   title    (required) talk title (often the paper title)
 #   event    (required) venue / conference / seminar
@@ -8,7 +6,6 @@
 #   location (optional)
 #   kind     (optional) "Conference talk" | "Invited talk" | "Seminar" | "Poster"
 #   url      (optional) slides / recording
-#   onepage  (optional, default false)
 
 - title: "SurvKAN: A Fully Parametric Survival Model Based on Kolmogorov-Arnold Networks"
   event: European Conference on Artificial Intelligence (ECAI)

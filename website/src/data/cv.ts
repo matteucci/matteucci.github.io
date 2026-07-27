@@ -9,15 +9,15 @@ export type Contact = {
 export type Detail = { label: string; text: string };
 export type Employment = {
   role: string; org: string; location: string | null;
-  start: number; end: number | 'present'; details: Detail[]; onepage: boolean;
+  start: number; end: number | 'present'; details: Detail[];
 };
 export type Education = {
   degree: string; org: string; location: string | null;
-  start: number; end: number; grade: string | null; thesis: string | null; onepage: boolean;
+  start: number; end: number; grade: string | null; thesis: string | null;
 };
 export type Teaching = {
   role: string; org: string; year: number; course: string;
-  degree: string | null; hours: number | null; note: string | null; onepage: boolean;
+  degree: string | null; hours: number | null; note: string | null;
 };
 export type Award = { title: string; org: string | null; year: number | null; note: string | null };
 export type Publication = {
@@ -32,16 +32,16 @@ export type ResearchInterest = { title: string; description: string | null };
 export type SkillGroup = { category: string; skills: string[] };
 export type Talk = {
   title: string; event: string; year: number;
-  location: string | null; kind: string | null; url: string | null; onepage: boolean;
+  location: string | null; kind: string | null; url: string | null;
 };
 export type Supervision = {
   student: string; degree: string; title: string;
-  year: number | null; role: string | null; onepage: boolean;
+  year: number | null; role: string | null;
 };
 export type Project = {
   name: string; full_name: string | null; issuer: string;
   location: string | null; role: string; start: number; end: number | 'present';
-  scope: string | null; url: string | null; description: string | null; onepage: boolean;
+  scope: string | null; url: string | null; description: string | null;
 };
 
 export const cv = data as unknown as {
@@ -67,6 +67,10 @@ export const cv = data as unknown as {
 export const fullName = cv.profile.suffix
   ? `${cv.profile.name}, ${cv.profile.suffix}`
   : cv.profile.name;
+
+// The published CV PDF is named after the profile surname ("archetti-cv.pdf");
+// src/cli.py derives it the same way, so the link never drifts from the file.
+export const cvPdfPath = `cv/${cv.profile.name.trim().split(/\s+/).pop()!.toLowerCase()}-cv.pdf`;
 
 export const period = (start: number, end: number | 'present') =>
   end === 'present' ? `${start} – present` : start === end ? `${start}` : `${start} – ${end}`;

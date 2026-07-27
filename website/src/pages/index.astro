@@ -5,7 +5,7 @@ import SocialIcon from '../components/SocialIcon.astro';
 import Rule from '../components/Rule.astro';
 import Entry from '../components/Entry.astro';
 import { SITE } from '../config';
-import { cv, fullName, period, pubUrl } from '../data/cv';
+import { cv, cvPdfPath, fullName, period, pubUrl } from '../data/cv';
 
 const { profile, research_interests, employment, education,
         teaching, talks, supervision, awards, projects, publications, metrics } = cv;
@@ -59,7 +59,7 @@ const webPubs = selectedPubs.length > 0 ? selectedPubs : publications;
         <p class="text-sm uppercase tracking-[0.18em] text-gold mb-8">{profile.tagline}</p>
       )}
       <div class="flex flex-wrap gap-3 mt-8">
-        <a href={`${base}cv/full.pdf`} target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded border border-gold bg-gold px-5 py-2.5 text-sm font-semibold text-navy no-underline transition-colors hover:bg-gold/90">
+        <a href={`${base}${cvPdfPath}`} target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded border border-gold bg-gold px-5 py-2.5 text-sm font-semibold text-navy no-underline transition-colors hover:bg-gold/90">
           View CV
         </a>
         {profile.contacts.find((c) => c.icon === 'email') && (

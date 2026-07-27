@@ -6,7 +6,6 @@
 #   course    (required) course name
 #   hours     (optional) contact hours, integer
 #   note      (optional) extra context (e.g. program name)
-#   onepage   (optional, default false) — teaching is usually full-CV only
 
 - role: Teaching Assistant
   org: Politecnico di Milano

@@ -13,7 +13,6 @@
 #   scope       (optional) "European" | "National" | "Regional" — shown as a tag
 #   url         (optional) project / grant page
 #   description (optional) one line on the project's aim
-#   onepage     (optional, default false) include on the condensed one-pager?
 
 - name: AI-SPRINT
   full_name: Artificial Intelligence in Secure PRIvacy-preserving computing coNTinuum

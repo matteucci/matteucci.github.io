@@ -6,7 +6,6 @@
 #   start, end  (required) years
 #   grade       (optional) e.g. "110/110 cum Laude"
 #   thesis      (optional) thesis title
-#   onepage     (optional, default true)
 
 - degree: National Ph.D. in Artificial Intelligence for Industry 4.0
   org: Politecnico di Torino
@@ -15,7 +14,6 @@
   end: 2025
   thesis: >
     Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data
-  onepage: true
 
 - degree: Master of Science in Computer Science and Engineering
   org: Politecnico di Milano
@@ -25,7 +23,6 @@
   grade: 110/110 cum Laude
   thesis: >
     Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*
-  onepage: true
 
 - degree: Bachelor's Degree in Computer Science and Engineering
   org: Politecnico di Milano
@@ -33,7 +30,6 @@
   start: 2015
   end: 2018
   grade: 110/110 cum Laude
-  onepage: true
 
 - degree: Diploma di Liceo Scientifico
   org: Madonna della Neve
@@ -41,4 +37,3 @@
   start: 2010
   end: 2015
   grade: 100/100
-  onepage: false

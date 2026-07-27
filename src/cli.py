@@ -93,13 +93,11 @@ def data() -> None:
 
 @app.command("build-cv")
 def build_cv(
-    template: str = typer.Option("onepage", help="Template name (onepage, full)."),
-    variant: str = typer.Option("onepage", help="Data variant: onepage | full."),
     compile_pdf: bool = typer.Option(True, "--compile/--no-compile", help="Run xelatex if available."),
 ) -> None:
-    """Render a CV template to LaTeX, and compile to PDF if xelatex is installed."""
+    """Render the CV to LaTeX, and compile to PDF if xelatex is installed."""
     d = load()
-    tex = render(d, template=template, variant=variant)
+    tex = render(d)
     typer.secho(f"Wrote {tex.relative_to(ROOT)}", fg=typer.colors.GREEN)
 
     xelatex = shutil.which("xelatex")
@@ -111,7 +109,7 @@ def build_cv(
                 fg=typer.colors.YELLOW,
             )
         return
-    _compile(tex)
+    _compile(tex, surname=d.profile.name.split()[-1].lower())
 
 
 @app.command("build-theme")
@@ -182,7 +180,7 @@ def scholar(
         typer.echo("No new publications — publications.bib already covers Scholar.")
 
 
-def _compile(tex: Path) -> None:
+def _compile(tex: Path, surname: str) -> None:
     # Run twice so page-number outlines / refs settle in multi-page CVs.
     cmd = ["xelatex", "-interaction=nonstopmode", "-shell-escape", tex.name]
     typer.echo(f"Compiling: {' '.join(cmd)}  (cwd={BUILD_DIR})")
@@ -199,14 +197,12 @@ def _compile(tex: Path) -> None:
         raise typer.Exit(1)
     typer.secho(f"PDF: {pdf.relative_to(ROOT)}", fg=typer.colors.GREEN)
 
-    # Publish the full CV to the website's public/ so the same PDF is downloadable
-    # and tracked. The one-pager stays internal (cv/build/ only) for now — it is
-    # not linked from the website, so we don't copy it into public/.
-    if pdf.stem == "full":
-        published = ROOT / "website" / "public" / "cv" / pdf.name
-        published.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(pdf, published)
-        typer.secho(f"Published: {published.relative_to(ROOT)}", fg=typer.colors.GREEN)
+    # Publish the CV to the website's public/ so the same PDF is downloadable
+    # and tracked, named after the profile surname (e.g. archetti-cv.pdf).
+    published = ROOT / "website" / "public" / "cv" / f"{surname}-cv.pdf"
+    published.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(pdf, published)
+    typer.secho(f"Published: {published.relative_to(ROOT)}", fg=typer.colors.GREEN)
 
 
 if __name__ == "__main__":

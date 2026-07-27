@@ -4,7 +4,6 @@
 #   org      (optional) awarding body / venue
 #   year     (optional)
 #   note     (optional)
-#   onepage  (optional, default true)
 
 - title: Special Mention for Best Paper
   org: LOD 2021 — 7th International Conference on Machine Learning, Optimization, and Data Science

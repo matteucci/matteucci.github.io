@@ -20,7 +20,7 @@ concurrency:
 # ── Jobs ─────────────────────────────────────────────────────────────────────
 # CI only publishes the website. The data export (cv build-site → site.json),
 # the Scholar fetch, and the LaTeX CV compilation all happen OFFLINE — their
-# outputs (website/src/data/site.json, website/public/cv/full.pdf, theme.css)
+# outputs (website/src/data/site.json, website/public/cv/{surname}-cv.pdf, theme.css)
 # are committed to the repo, so CI needs nothing but Node + npm.
 jobs:
   build:

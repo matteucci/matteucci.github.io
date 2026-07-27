@@ -1,5 +1,5 @@
 %% FULL ACADEMIC CV — single column, multi-page, all sections.
-%% Same preamble/aesthetic as the one-pager; driven by data/*.yaml + .bib.
+%% Driven by data/*.yaml + .bib.
 %% Section order and entry style mirror the website (title line + small
 %% warm-gray meta line, dot-separated), so the two read as one document.
 \documentclass[10pt,a4paper]{article}
@@ -96,7 +96,7 @@
 \begin{enumerate}[leftmargin=1.6em, itemsep=4pt, label=\textcolor{gold}{[\arabic*]}]
 \BLOCK{for p in items}\item {\color{charcoal}%
   \BLOCK{for a in p.authors}\BLOCK{if 'Archetti' in a}\textbf{\VAR{a | tex}}\BLOCK{else}\VAR{a | tex}\BLOCK{endif}\BLOCK{if not loop.last}, \BLOCK{endif}\BLOCK{endfor}
-  (\VAR{p.year}). \textit{\VAR{p.title | tex}}.\BLOCK{if p.venue} \VAR{p.venue | tex}\BLOCK{if p.volume}, \VAR{p.volume | tex}\BLOCK{endif}\BLOCK{if p.pages}, pp.~\VAR{p.pages | replace('--', '–') | tex}\BLOCK{endif}.\BLOCK{endif}\BLOCK{if p.url} \href{\VAR{p.url}}{\small\color{gold}\VAR{p.doi or p.arxiv | tex}}\BLOCK{endif}}
+  (\VAR{p.year}). \textit{\VAR{p.title | tex}}.\BLOCK{if p.venue} \VAR{p.venue | tex}\BLOCK{if p.volume}, \VAR{p.volume | tex}\BLOCK{endif}\BLOCK{if p.pages}, pp.~\VAR{p.pages | replace('--', '–') | tex}\BLOCK{endif}.\BLOCK{endif}\BLOCK{if p.url} \href{\VAR{p.url}}{\small\color{gold}\BLOCK{if p.doi}\VAR{p.doi | tex}\BLOCK{else}arXiv:\VAR{p.arxiv | tex}\BLOCK{endif}}\BLOCK{endif}}
 \BLOCK{endfor}\end{enumerate}\vspace{4pt}
 \BLOCK{endif}
 \BLOCK{endfor}

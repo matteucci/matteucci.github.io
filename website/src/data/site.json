@@ -121,8 +121,7 @@
           "label": "Research topic",
           "text": "Tabular foundation models for healthcare."
         }
-      ],
-      "onepage": true
+      ]
     },
     {
       "role": "National Ph.D. in Artificial Intelligence for Industry 4.0",
@@ -139,8 +138,7 @@
           "label": "Collaborations",
           "text": "Research visitor at the Human Technopole, Milan, Italy."
         }
-      ],
-      "onepage": true
+      ]
     },
     {
       "role": "Research Internship",
@@ -153,8 +151,7 @@
           "label": "Activities",
           "text": "Data analysis for anomaly detection; automated knowledge graph extraction.\n"
         }
-      ],
-      "onepage": false
+      ]
     }
   ],
   "education": [
@@ -165,8 +162,7 @@
       "start": 2021,
       "end": 2025,
       "grade": null,
-      "thesis": "Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data\n",
-      "onepage": true
+      "thesis": "Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data\n"
     },
     {
       "degree": "Master of Science in Computer Science and Engineering",
@@ -175,8 +171,7 @@
       "start": 2018,
       "end": 2021,
       "grade": "110/110 cum Laude",
-      "thesis": "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*\n",
-      "onepage": true
+      "thesis": "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*\n"
     },
     {
       "degree": "Bachelor's Degree in Computer Science and Engineering",
@@ -185,8 +180,7 @@
       "start": 2015,
       "end": 2018,
       "grade": "110/110 cum Laude",
-      "thesis": null,
-      "onepage": true
+      "thesis": null
     },
     {
       "degree": "Diploma di Liceo Scientifico",
@@ -195,8 +189,7 @@
       "start": 2010,
       "end": 2015,
       "grade": "100/100",
-      "thesis": null,
-      "onepage": false
+      "thesis": null
     }
   ],
   "teaching": [
@@ -207,8 +200,7 @@
       "course": "AI Bootcamp",
       "degree": "TechCamp@PoliMI",
       "hours": 15,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -217,8 +209,7 @@
       "course": "Advanced Deep Learning",
       "degree": "MSc",
       "hours": 10,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -227,8 +218,7 @@
       "course": "AI Bootcamp",
       "degree": "TechCamp@PoliMI",
       "hours": 15,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -237,8 +227,7 @@
       "course": "AI Product Management Bootcamp",
       "degree": "Corporate Training",
       "hours": 6,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -247,8 +236,7 @@
       "course": "Artificial Neural Networks and Deep Learning",
       "degree": "MSc",
       "hours": 20,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -257,8 +245,7 @@
       "course": "Artificial Neural Networks and Deep Learning",
       "degree": "MSc",
       "hours": 20,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -267,8 +254,7 @@
       "course": "AI Bootcamp",
       "degree": "TechCamp@PoliMI",
       "hours": 15,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -277,8 +263,7 @@
       "course": "Coding Bootcamp",
       "degree": "TechCamp@PoliMI",
       "hours": 15,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Lab Tutor",
@@ -287,8 +272,7 @@
       "course": "Software Engineering",
       "degree": "BSc",
       "hours": 32,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -297,8 +281,7 @@
       "course": "Coding Bootcamp",
       "degree": "TechCamp@PoliMI",
       "hours": 15,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Lab Tutor",
@@ -307,8 +290,7 @@
       "course": "Software Engineering",
       "degree": "BSc",
       "hours": 32,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Teaching Assistant",
@@ -317,8 +299,7 @@
       "course": "Coding Bootcamp",
       "degree": "TechCamp@PoliMI",
       "hours": 30,
-      "note": null,
-      "onepage": false
+      "note": null
     },
     {
       "role": "Lab Tutor",
@@ -327,8 +308,7 @@
       "course": "Software Engineering",
       "degree": "BSc",
       "hours": 32,
-      "note": null,
-      "onepage": false
+      "note": null
     }
   ],
   "talks": [
@@ -338,8 +318,7 @@
       "year": 2026,
       "location": "Maastricht, Netherlands",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Deep Variational Contrastive Learning for Joint Risk Stratification and Time-to-Event Estimation",
@@ -347,8 +326,7 @@
       "year": 2026,
       "location": "Maastricht, Netherlands",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "FPBoost: Fully Parametric Gradient Boosting for Survival Analysis",
@@ -356,8 +334,7 @@
       "year": 2025,
       "location": "Bologna, Italy",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Discriminative adversarial privacy: balancing accuracy and membership privacy in neural networks",
@@ -365,8 +342,7 @@
       "year": 2024,
       "location": "Aberdeen, Scotland",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Federated Survival Forests",
@@ -374,8 +350,7 @@
       "year": 2023,
       "location": "Broadbeach, Australia",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Deep Survival Analysis for Healthcare: An Empirical Study on Post-Processing Techniques",
@@ -383,8 +358,7 @@
       "year": 2023,
       "location": "Rome, Italy",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Federated Survival Analysis",
@@ -392,8 +366,7 @@
       "year": 2022,
       "location": "Udine, Italy",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Federated and Privacy-Preserving Learning",
@@ -401,8 +374,7 @@
       "year": 2022,
       "location": "Milan, Italy",
       "kind": "Seminar",
-      "url": null,
-      "onepage": false
+      "url": null
     },
     {
       "title": "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*",
@@ -410,8 +382,7 @@
       "year": 2021,
       "location": "Grasmere, England",
       "kind": "Conference talk",
-      "url": null,
-      "onepage": false
+      "url": null
     }
   ],
   "supervision": [
@@ -420,72 +391,63 @@
       "degree": "MSc thesis",
       "title": "Deep Variational Contrastive Learning for Risk Stratification and Time-to-Event Estimation",
       "year": 2026,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Marina Mastroleo",
       "degree": "MSc thesis",
       "title": "SurvKAN: Fully Parametric Survival Modeling with Kolmogorov-Arnold Networks",
       "year": 2026,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Sofia Perini",
       "degree": "MSc thesis",
       "title": "Exploring multimodality in federated survival analysis",
       "year": 2026,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Emanuele Paesano",
       "degree": "MSc thesis",
       "title": "A multimodal framework for survival analysis integrating clinical, genomic, histopathological and textual data",
       "year": 2025,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Niccolò Maria Rizzi",
       "degree": "MSc thesis",
       "title": "A generative pipeline for high-quality synthetic survival datasets",
       "year": 2025,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Gabriele Giusti",
       "degree": "MSc thesis",
       "title": "Multi-Agent Reinforcement Learning for emergent molecular communication in diffusion-based environments",
       "year": 2025,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Andrea Menta",
       "degree": "MSc thesis",
       "title": "Image restoration via Latent Neural Cellular Automata",
       "year": 2023,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Simone Cimmino",
       "degree": "MSc thesis",
       "title": "A pipeline for company industrial sector classification from unstructured website content",
       "year": 2022,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     },
     {
       "student": "Sara Sacco",
       "degree": "MSc thesis",
       "title": "Analisi spettrale per il rilevamento di anomalie: studio sulla sopravvivenza degli estensimetri a corda per Snam S.p.A.",
       "year": 2022,
-      "role": "Co-advisor",
-      "onepage": false
+      "role": "Co-advisor"
     }
   ],
   "awards": [
@@ -493,15 +455,13 @@
       "title": "Special Mention for Best Paper",
       "org": "LOD 2021 — 7th International Conference on Machine Learning, Optimization, and Data Science",
       "year": 2021,
-      "note": null,
-      "onepage": true
+      "note": null
     },
     {
       "title": "Honours Programme: Scientific Research in Information Technology",
       "org": "Politecnico di Milano",
       "year": 2021,
-      "note": null,
-      "onepage": true
+      "note": null
     }
   ],
   "projects": [
@@ -515,8 +475,7 @@
       "end": 2023,
       "scope": null,
       "url": "https://www.ai-sprint-project.eu/",
-      "description": null,
-      "onepage": false
+      "description": null
     }
   ],
   "publications": [

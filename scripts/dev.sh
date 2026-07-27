@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# One-click local dev: fetch Scholar (opt-in), build both CVs, export site data,
+# One-click local dev: fetch Scholar (opt-in), build the CV, export site data,
 # and spin up the Astro dev server if it isn't already running.
 #
 # Usage:
@@ -43,14 +43,10 @@ if $FETCH_SCHOLAR; then
     cv scholar --scholar-id "$SCHOLAR_ID" || echo "  Scholar fetch failed — continuing with cached data"
 fi
 
-# ── CVs ──────────────────────────────────────────────────────────────────────
-echo "==> Building one-page CV…"
+# ── CV ───────────────────────────────────────────────────────────────────────
+echo "==> Building CV…"
 # shellcheck disable=SC2086
-cv build-cv --template onepage --variant onepage $COMPILE_FLAG
-
-echo "==> Building full CV…"
-# shellcheck disable=SC2086
-cv build-cv --template full --variant full $COMPILE_FLAG
+cv build-cv $COMPILE_FLAG
 
 # ── Site data ────────────────────────────────────────────────────────────────
 echo "==> Exporting site data…"
@@ -63,5 +59,5 @@ if lsof -ti :4321 >/dev/null 2>&1 || lsof -ti :4322 >/dev/null 2>&1; then
 else
     echo "==> Starting Astro dev server…"
     npm run dev &
-    echo "    → http://localhost:4321/archettialberto"
+    echo "    → http://localhost:4321/"
 fi

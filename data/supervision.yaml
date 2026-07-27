@@ -1,13 +1,10 @@
 # Student supervision (thesis advising / co-advising), most recent first.
-# TEMPLATE — fill in real students. Co-authors on your recent papers who appear
-# to be students are suggested as PLACEHOLDERS; correct names/titles/years.
 # Each:
 #   student  (required)
 #   degree   (required) "MSc thesis" | "BSc thesis" | "Project"
 #   title    (required) thesis/project title
 #   year     (optional)
 #   role     (optional) e.g. "Co-advisor"
-#   onepage  (optional, default false)
 
 # - student: <Student Name>
 #   degree: MSc thesis
@@ -15,7 +12,6 @@
 #   year: 2025
 #   role: Co-advisor
 
-# Example placeholders inferred from recent co-authored work — verify before use:
 - student: "Pinar Erbil"
   degree: MSc thesis
   title: Deep Variational Contrastive Learning for Risk Stratification and Time-to-Event Estimation

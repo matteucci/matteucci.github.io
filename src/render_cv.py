@@ -7,7 +7,7 @@ Jinja's default ``{{ }}`` / ``{% %}`` clash with LaTeX, so we use:
 A ``tex`` filter escapes LaTeX specials in data values.
 
 The build dir is made self-contained — preamble, fonts, and logo assets are
-copied in — so the emitted ``.tex`` compiles with a plain ``xelatex onepage``.
+copied in — so the emitted ``.tex`` compiles with a plain ``xelatex cv``.
 """
 
 from __future__ import annotations
@@ -94,24 +94,12 @@ def _env() -> jinja2.Environment:
     return env
 
 
-def render(data: CVData, template: str = "onepage", *, variant: str = "onepage") -> Path:
+def render(data: CVData, template: str = "cv") -> Path:
     """Render ``<template>.tex.j2`` to ``cv/build/<template>.tex``.
 
-    ``variant='onepage'`` filters data to one-page entries first.
     Returns the path to the written ``.tex`` file.
     """
-    payload = data.onepage() if variant == "onepage" else data
-
-    # Headline numbers for the one-pager's "Highlights" block, computed from
-    # the UNfiltered data (the onepage variant strips teaching/supervision,
-    # but their totals are still worth advertising).
-    stats = {
-        "publications": len(data.publications) or None,
-        "citations": data.metrics.total_citations if data.metrics else None,
-        "h_index": data.metrics.h_index if data.metrics else None,
-        "teaching_hours": sum(t.hours or 0 for t in data.teaching) or None,
-        "students": len(data.supervision) or None,
-    }
+    payload = data
 
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     # Make the build dir self-contained for xelatex.
@@ -167,7 +155,6 @@ def render(data: CVData, template: str = "onepage", *, variant: str = "onepage")
         projects=payload.projects,
         publications=payload.publications,
         metrics=payload.metrics,
-        stats=stats,
         logo=logo,
         **theme_ctx,
     )

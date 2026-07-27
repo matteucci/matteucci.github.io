@@ -5,7 +5,6 @@
 #   location    (optional)
 #   start, end  (required) years; use "present" for ongoing
 #   details     (optional) list of {label, text} sub-lines (e.g. research topic, collaborations)
-#   onepage     (optional, default true) include on the condensed one-pager?
 
 - role: Research Fellow
   org: AIRLab, Politecnico di Milano
@@ -15,7 +14,6 @@
   details:
     - label: Research topic
       text: Tabular foundation models for healthcare.
-  onepage: true
 
 - role: National Ph.D. in Artificial Intelligence for Industry 4.0
   org: Politecnico di Torino
@@ -27,7 +25,6 @@
       text: Federated Learning for Survival Analysis.
     - label: Collaborations
       text: Research visitor at the Human Technopole, Milan, Italy.
-  onepage: true
 
 - role: Research Internship
   org: Politecnico di Milano
@@ -38,4 +35,3 @@
     - label: Activities
       text: >
         Data analysis for anomaly detection; automated knowledge graph extraction.
-  onepage: false

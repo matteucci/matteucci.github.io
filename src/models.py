@@ -63,7 +63,6 @@ class Employment(BaseModel):
     start: int
     end: int | Literal["present"]
     details: list[Detail] = Field(default_factory=list)
-    onepage: bool = True
 
     @property
     def period(self) -> str:
@@ -79,7 +78,6 @@ class Education(BaseModel):
     end: int
     grade: str | None = None
     thesis: str | None = None
-    onepage: bool = True
 
     @property
     def period(self) -> str:
@@ -94,7 +92,6 @@ class Teaching(BaseModel):
     degree: str | None = None  # course level, e.g. "MSc" / "BSc"
     hours: int | None = None
     note: str | None = None
-    onepage: bool = False
 
 
 class Award(BaseModel):
@@ -102,7 +99,6 @@ class Award(BaseModel):
     org: str | None = None
     year: int | None = None
     note: str | None = None
-    onepage: bool = True
 
 
 class Project(BaseModel):
@@ -124,7 +120,6 @@ class Project(BaseModel):
     scope: str | None = None  # e.g. "European", "National", "Regional"
     url: str | None = None
     description: str | None = None
-    onepage: bool = False
 
     @property
     def period(self) -> str:
@@ -152,7 +147,6 @@ class Talk(BaseModel):
     location: str | None = None
     kind: str | None = None  # e.g. "Invited talk", "Conference", "Seminar"
     url: str | None = None
-    onepage: bool = False
 
 
 class Supervision(BaseModel):
@@ -161,7 +155,6 @@ class Supervision(BaseModel):
     title: str
     year: int | None = None
     role: str | None = None  # e.g. "Co-advisor"
-    onepage: bool = False
 
 
 # --------------------------------------------------------------------------- #
@@ -226,19 +219,3 @@ class CVData(BaseModel):
     publications: list[Publication] = Field(default_factory=list)
     metrics: ScholarMetrics | None = None
 
-    def onepage(self) -> "CVData":
-        """Return a copy keeping only entries flagged for the one-pager."""
-        return CVData(
-            profile=self.profile,
-            research_interests=self.research_interests,
-            skills=self.skills,
-            employment=[e for e in self.employment if e.onepage],
-            education=[e for e in self.education if e.onepage],
-            teaching=[t for t in self.teaching if t.onepage],
-            talks=[t for t in self.talks if t.onepage],
-            supervision=[s for s in self.supervision if s.onepage],
-            awards=[a for a in self.awards if a.onepage],
-            projects=[p for p in self.projects if p.onepage],
-            publications=self.publications,
-            metrics=self.metrics,
-        )
