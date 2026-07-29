@@ -1,21 +1,28 @@
-# Skills, grouped by category. Shown on the website.
-# DRAFT — adjust the lists to match what you actually want to advertise.
-# Each: category (required), skills (list of strings).
-
-- category: Programming
-  skills: [Python, C/C++, Java, SQL, LaTeX, Bash]
-
-- category: Machine Learning
+- category: Research
   skills:
-    - PyTorch
-    - TensorFlow
-    - scikit-learn
-    - Hugging Face
-    - LangChain
-    - n8n
+    - Robotics
+    - Machine Learning
+    - Computer Vision
+    - Pattern Recognition
+    - Signal Processing
 
-- category: Tools
-  skills: [Git, Docker, Linux, SLURM/HPC]
+- category: Autonomous Systems
+  skills:
+    - Perception
+    - SLAM
+    - Sensor Fusion
+    - Robot Learning
+    - Benchmarking
+
+- category: Application Domains
+  skills:
+    - Intelligent Vehicles
+    - Agricultural Robotics
+    - Assistive Technologies
+    - Event-based Vision
+    - Intelligent Data Analysis
 
 - category: Languages
-  skills: [Italian (native), English (fluent)]
+  skills:
+    - Italian (native)
+    - English (fluent)

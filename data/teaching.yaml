@@ -1,99 +1,38 @@
-# Teaching activities, most recent first.
-# Each entry:
-#   role      (required) e.g. "Teaching Assistant", "Ph.D. Lecture"
-#   org       (required)
-#   year      (required)
-#   course    (required) course name
-#   hours     (optional) contact hours, integer
-#   note      (optional) extra context (e.g. program name)
-
-- role: Teaching Assistant
+- role: Lecturer and Coordinator
   org: Politecnico di Milano
   year: 2026
-  course: AI Bootcamp
-  degree: TechCamp@PoliMI
-  hours: 15
+  course: Machine Learning
+  degree: MSc in Bioinformatics for Computational Genomics
+  note: Coordinator since 2020
 
-- role: Teaching Assistant
+- role: Lecturer and Coordinator
   org: Politecnico di Milano
   year: 2026
-  course: Advanced Deep Learning
-  degree: MSc
-  hours: 10
-
-- role: Teaching Assistant
-  org: Politecnico di Milano
-  year: 2025
-  course: AI Bootcamp
-  degree: TechCamp@PoliMI
-  hours: 15
-
-- role: Teaching Assistant
-  org: CEFRIEL
-  year: 2025
-  course: AI Product Management Bootcamp
-  degree: Corporate Training
-  hours: 6
-
-- role: Teaching Assistant
-  org: Politecnico di Milano
-  year: 2025
   course: Artificial Neural Networks and Deep Learning
-  degree: MSc
-  hours: 20
+  degree: MSc in Computer Science and Engineering
+  note: Coordinator since 2019
 
-- role: Teaching Assistant
+- role: Lecturer and Coordinator
   org: Politecnico di Milano
-  year: 2024
-  course: Artificial Neural Networks and Deep Learning
-  degree: MSc
-  hours: 20
+  year: 2026
+  course: Robotics
+  degree: MSc and BSc in Computer Science and Engineering
+  note: Coordinator since 2016
 
-- role: Teaching Assistant
+- role: Lecturer
   org: Politecnico di Milano
-  year: 2024
-  course: AI Bootcamp
-  degree: TechCamp@PoliMI
-  hours: 15
+  year: 2020
+  course: Machine Learning for Non-Matrix Data
+  degree: Ph.D. in Information Technology
 
-- role: Teaching Assistant
+- role: Lecturer and Coordinator
   org: Politecnico di Milano
-  year: 2024
-  course: Coding Bootcamp
-  degree: TechCamp@PoliMI
-  hours: 15
+  year: 2019
+  course: Advances in Deep Learning with Applications in Text and Image Processing
+  degree: Ph.D. in Information Engineering
 
-- role: Lab Tutor
+- role: Lecturer and Coordinator
   org: Politecnico di Milano
-  year: 2024
-  course: Software Engineering
-  degree: BSc
-  hours: 32
-
-- role: Teaching Assistant
-  org: Politecnico di Milano
-  year: 2023
-  course: Coding Bootcamp
-  degree: TechCamp@PoliMI
-  hours: 15
-
-- role: Lab Tutor
-  org: Politecnico di Milano
-  year: 2023
-  course: Software Engineering
-  degree: BSc
-  hours: 32
-
-- role: Teaching Assistant
-  org: Politecnico di Milano
-  year: 2022
-  course: Coding Bootcamp
-  degree: TechCamp@PoliMI
-  hours: 30
-
-- role: Lab Tutor
-  org: Politecnico di Milano
-  year: 2022
-  course: Software Engineering
-  degree: BSc
-  hours: 32
+  year: 2018
+  course: "Deep Learning: Theory, Techniques and Applications"
+  degree: Ph.D. in Information Engineering

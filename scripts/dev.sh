@@ -23,7 +23,7 @@ else
 fi
 
 # ── Flags ────────────────────────────────────────────────────────────────────
-SCHOLAR_ID="${SCHOLAR_ID:---kj4bcAAAAJ}"
+SCHOLAR_ID="${SCHOLAR_ID:-PdbEg5YAAAAJ}"
 FETCH_SCHOLAR=true
 NO_COMPILE=false
 

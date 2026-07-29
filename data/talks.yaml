@@ -1,62 +1,29 @@
-# Talks & invited presentations, most recent first.
-# Each:
-#   title    (required) talk title (often the paper title)
-#   event    (required) venue / conference / seminar
-#   year     (required)
-#   location (optional)
-#   kind     (optional) "Conference talk" | "Invited talk" | "Seminar" | "Poster"
-#   url      (optional) slides / recording
-
-- title: "SurvKAN: A Fully Parametric Survival Model Based on Kolmogorov-Arnold Networks"
-  event: European Conference on Artificial Intelligence (ECAI)
-  year: 2026
-  location: Maastricht, Netherlands
-  kind: Conference talk
-
-- title: "Deep Variational Contrastive Learning for Joint Risk Stratification and Time-to-Event Estimation"
-  event: European Conference on Artificial Intelligence (ECAI)
-  year: 2026
-  location: Maastricht, Netherlands
-  kind: Conference talk
-
-- title: "FPBoost: Fully Parametric Gradient Boosting for Survival Analysis"
-  event: European Conference on Artificial Intelligence (ECAI)
-  year: 2025
-  location: Bologna, Italy
-  kind: Conference talk
-
-- title: "Discriminative adversarial privacy: balancing accuracy and membership privacy in neural networks"
-  event: British Machine Vision Conference (BMVC)
+- title: "La percezione dei robot ai tempi dell'AI: precisione o flessibilità?"
+  event: BI-MU and I-RIM
   year: 2024
-  location: Aberdeen, Scotland
-  kind: Conference talk
-
-- title: "Federated Survival Forests"
-  event: International Joint Conference on Neural Networks (IJCNN)
-  year: 2023
-  location: Broadbeach, Australia
-  kind: Conference talk
-
-- title: "Deep Survival Analysis for Healthcare: An Empirical Study on Post-Processing Techniques"
-  event: AIxIA Workshop on Artificial Intelligence For Healthcare
-  year: 2023
-  location: Rome, Italy
-  kind: Conference talk
-
-- title: "Federated Survival Analysis"
-  event: AIxIA Workshop on Machine Learning and Data Mining
-  year: 2022
-  location: Udine, Italy
-  kind: Conference talk
-
-- title: "Federated and Privacy-Preserving Learning"
-  event: PhD Lecture, Politecnico di Milano
-  year: 2022
   location: Milan, Italy
-  kind: Seminar
+  kind: Invited talk
 
-- title: "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*"
-  event: Conference on Machine Learning, Optimization, and Data Science (LOD)
-  year: 2021
-  location: Grasmere, England
-  kind: Conference talk
+- title: Autonomous Driving and Artificial Intelligence
+  event: AIxIA 2018
+  year: 2018
+  location: Trento, Italy
+  kind: Invited talk
+
+- title: Do Big Data Make Common Sense?
+  event: Big Data e Robotica nella fabbrica digitale connessa
+  year: 2017
+  location: Milan, Italy
+  kind: Invited talk
+
+- title: Modular Development of Service Robots
+  event: A&T — Robot & Co.
+  year: 2016
+  location: Turin, Italy
+  kind: Invited talk
+
+- title: Robotics Benchmarking and Good Experimental Methodologies
+  event: European Robotics Forum
+  year: 2016
+  location: Ljubljana, Slovenia
+  kind: Invited talk

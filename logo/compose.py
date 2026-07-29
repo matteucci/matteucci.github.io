@@ -1,11 +1,11 @@
-"""Build the double-A monogram: a solid front A (with crossbar) and a
-translucent back A (no crossbar) shifted straight up so its tip peeks above
-the front A with a fixed white gap. Writes the logo, recoloured to the active
-theme's accent, where the CV and website read it.
+"""Build the double-M monogram from two offset geometric glyphs.
+
+The logo is recoloured to the active theme's accent and written to the CV and
+website asset directories.
 
   python logo/compose.py                 # regenerate for the active theme
-  python logo/compose.py --gap 0.45      # upward gap (fraction of height)
-  python logo/compose.py --opacity 1.0   # back A full colour (default 0.3)
+  python logo/compose.py --gap 0.08      # upward offset (fraction of height)
+  python logo/compose.py --opacity 1.0   # render both M glyphs at full strength
 """
 
 from __future__ import annotations
@@ -22,12 +22,12 @@ except Exception:  # missing cairosvg or a broken native cairo library
 
 ROOT = Path(__file__).resolve().parent.parent
 ORIGINAL = ROOT / "logo" / "original.svg"
-GAP = 0.0       # upward shift of the back A, as a fraction of glyph height
-OPACITY = 1.0   # back A opacity (1.0 = full colour)
+GAP = 0.0       # upward shift of the back M, as a fraction of glyph height
+OPACITY = 0.28  # quieter offset M behind the primary glyph
 
 
 def _glyphs() -> list[str]:
-    """Two <path .../> strings from the original: [0]=back (no bar), [1]=front."""
+    """Return the two M path elements from the source artwork."""
     return re.findall(r"<path.*?/>", ORIGINAL.read_text(), re.DOTALL)
 
 

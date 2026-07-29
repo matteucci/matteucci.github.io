@@ -1,29 +1,20 @@
 {
   "metrics": {
-    "h_index": 7,
-    "i10_index": 5,
-    "total_citations": 164,
-    "scholar_id": "--kj4bcAAAAJ",
-    "fetched_at": "2026-06-30T09:11:53+00:00"
+    "h_index": 52,
+    "i10_index": 221,
+    "total_citations": 12490,
+    "scholar_id": "PdbEg5YAAAAJ",
+    "fetched_at": "2026-07-29T00:00:00+02:00"
   },
   "citations_by_title": {
-    "Federated Survival Forests": 33,
-    "SGDE: Secure Generative Data Exchange for Cross-Silo Federated Learning": 32,
-    "Scaling survival analysis in healthcare with federated survival forests: A comparative study on heart failure and breast cancer genomics": 29,
-    "Heterogeneous datasets for federated survival analysis simulation": 20,
-    "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*": 18,
-    "FPBoost: fully parametric gradient boosting for survival analysis": 7,
-    "Discriminative adversarial privacy: Balancing accuracy and membership privacy in neural networks": 7,
-    "Latent neural cellular automata for resource-efficient image restoration": 6,
-    "Bridging the gap: improve neural survival models with interpolation techniques": 4,
-    "Deep Survival Analysis for Healthcare: An Empirical Study on Post-Processing Techniques": 4,
-    "Harnessing the computing continuum across personalized healthcare, maintenance and inspection, and farming 4.0": 3,
-    "Emergent Molecular Communication: Preliminary Results With Graph Neural Networks and Diffusion Channels": 1,
-    "QuAIL: Quality-Aware Inertial Learning for Robust Training under Data Corruption": 0,
-    "SurvKAN: A Fully Parametric Survival Model Based on Kolmogorov-Arnold Networks": 0,
-    "Deep Variational Contrastive Learning for Joint Risk Stratification and Time-to-Event Estimation": 0,
-    "Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data": 0,
-    "Drug Inventory Control: Human Decisions versus Deep Reinforcement Learning": 0
+    "Deep Learning for Land Use and Land Cover Classification Based on Hyperspectral and Multispectral Earth Observation Data: A Review": 575,
+    "Skeleton-Based Action Recognition via Spatial and Temporal Transformer Networks": 523,
+    "ReSeg: A Recurrent Neural Network-Based Model for Semantic Segmentation": 451,
+    "The Digital Agricultural Revolution: A Bibliometric Analysis Literature Review": 224,
+    "Detecting Intrusions through System Call Sequence and Argument Analysis": 224,
+    "Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras": 222,
+    "RAWSEEDS Ground Truth Collection Systems for Indoor Self-Localization and Mapping": 208,
+    "A Differentiable Recurrent Surface for Asynchronous Event-Based Data": 191
   },
   "citations_by_key": {}
 }

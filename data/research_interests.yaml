@@ -1,19 +1,19 @@
-# Research interests — shown on the website and (compactly) on the CV.
-# DRAFT inferred from your publications; edit titles/descriptions to taste.
-# Each: title (required), description (optional one-liner).
-
-- title: Tabular Foundation Models
+- title: Robotics and Autonomous Systems
   description: >
-    Building general-purpose deep learning models for in-context learning on tabular data.
+    Perception, navigation, mapping, sensor fusion, planning, and learning for
+    autonomous robots and intelligent vehicles.
 
-- title: Survival Analysis
+- title: Machine Learning and Pattern Recognition
   description: >
-    Predicting time-to-event outcomes for clinical data and financial applications.
+    Adaptive models, representation learning, probabilistic methods, and
+    reliable experimental methodologies for intelligent systems.
 
-- title: Federated Learning
+- title: Computer Vision
   description: >
-    Training models across distributed, siloed datasets while preserving privacy.
+    Visual perception, event-based vision, 3D reconstruction, scene
+    understanding, and multimodal learning.
 
-- title: Machine Learning for Healthcare
+- title: AI for the Physical World
   description: >
-    Applying AI to multimodal healthcare data, with a focus on privacy, interpretability, and reliability.
+    Applied AI for agriculture, assistive technology, smart eyewear,
+    transportation, medicine, and industrial systems.

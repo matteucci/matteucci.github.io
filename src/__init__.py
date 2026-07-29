@@ -1,4 +1,4 @@
-"""archettialberto — single-source-of-truth career data pipeline.
+"""matteucci — single-source-of-truth career data pipeline.
 
 Edit data in ``data/`` (YAML + ``publications.bib``); render to LaTeX CVs and an
 Astro website from that one source. See ``src/cli.py`` for entry points.

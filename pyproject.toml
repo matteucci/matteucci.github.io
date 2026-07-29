@@ -1,9 +1,9 @@
 [project]
-name = "archettialberto"
+name = "matteucci"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Alberto Archetti",email = "alberto1.archetti@mail.polimi.it"}
+    {name = "Matteo Matteucci",email = "matteo.matteucci@polimi.it"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"

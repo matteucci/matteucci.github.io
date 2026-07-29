@@ -1,2 +1,2 @@
 # Which theme is active. Switch with `python -m src.cli theme use <name>`.
-active: old-money
+active: atlas

@@ -1,37 +1,32 @@
-# Employment history, most recent first.
-# Each entry:
-#   role        (required) job title
-#   org         (required) employer / institution
-#   location    (optional)
-#   start, end  (required) years; use "present" for ongoing
-#   details     (optional) list of {label, text} sub-lines (e.g. research topic, collaborations)
-
-- role: Research Fellow
-  org: AIRLab, Politecnico di Milano
+- role: Full Professor
+  org: Department of Electronics, Information and Bioengineering, Politecnico di Milano
   location: Milan, Italy
-  start: 2025
+  start: 2021
   end: present
   details:
-    - label: Research topic
-      text: Tabular foundation models for healthcare.
+    - label: Research
+      text: Robotics, machine learning, computer vision, pattern recognition, and intelligent systems.
 
-- role: National Ph.D. in Artificial Intelligence for Industry 4.0
-  org: Politecnico di Torino
-  location: Turin, Italy
-  start: 2021
-  end: 2025
-  details:
-    - label: Research topic
-      text: Federated Learning for Survival Analysis.
-    - label: Collaborations
-      text: Research visitor at the Human Technopole, Milan, Italy.
-
-- role: Research Internship
-  org: Politecnico di Milano
+- role: Associate Professor
+  org: Department of Electronics, Information and Bioengineering, Politecnico di Milano
   location: Milan, Italy
-  start: 2021
+  start: 2015
   end: 2021
-  details:
-    - label: Activities
-      text: >
-        Data analysis for anomaly detection; automated knowledge graph extraction.
+
+- role: Assistant Professor
+  org: Department of Electronics and Information, Politecnico di Milano
+  location: Milan, Italy
+  start: 2005
+  end: 2015
+
+- role: Research Assistant
+  org: Department of Electronics and Information, Politecnico di Milano
+  location: Milan, Italy
+  start: 2003
+  end: 2005
+
+- role: Visiting Student
+  org: Center for Automatic Learning and Discovery, Carnegie Mellon University
+  location: Pittsburgh, PA, USA
+  start: 2001
+  end: 2002

@@ -68,7 +68,7 @@ export const fullName = cv.profile.suffix
   ? `${cv.profile.name}, ${cv.profile.suffix}`
   : cv.profile.name;
 
-// The published CV PDF is named after the profile surname ("archetti-cv.pdf");
+// The published CV PDF is named after the profile surname ("matteucci-cv.pdf");
 // src/cli.py derives it the same way, so the link never drifts from the file.
 export const cvPdfPath = `cv/${cv.profile.name.trim().split(/\s+/).pop()!.toLowerCase()}-cv.pdf`;
 

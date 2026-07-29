@@ -1,64 +1,50 @@
-# Personal identity and contact details.
-# This is the only place name/title/contacts live; both CVs and the website read it.
+# Personal identity and contact details shared by the website and generated CV.
 
-name: Alberto Archetti
-# Suffix appended after the name where the design calls for it (e.g. "Alberto Archetti, Ph.D.").
+name: Matteo Matteucci
 suffix: Ph.D.
-title: Postdoctoral Researcher in Artificial Intelligence
+title: Full Professor of Computer Engineering
 
-# Short tagline shown under the name on the website hero (one line).
-tagline: Tabular foundation models · Federated learning · Survival analysis
+tagline: Robotics · Machine learning · Computer vision · Pattern recognition
 
-# Short professional summary. Keep it tight (~3 sentences) and jargon-light.
 summary: >
-  I am a postdoctoral researcher in artificial intelligence at AIRLab, Politecnico
-  di Milano. My work spans tabular foundation models, federated learning, and
-  survival analysis, with a focus on extracting reliable, privacy-preserving
-  insights from sensitive and distributed healthcare data.
+  I am a Full Professor at the Department of Electronics, Information and
+  Bioengineering of Politecnico di Milano. My research develops machine
+  learning and perception methods for autonomous systems, with applications
+  spanning robotics, intelligent vehicles, agriculture, and assistive
+  technologies.
 
-# First-person bio shown on the website (falls back to `summary` if empty).
-# One paragraph per line so the browser wraps it naturally; inline <strong> tags
-# highlight research interests (rendered as HTML on the site).
 bio: |
-  I am fascinated by emerging phenomena — how simple rules give rise to complex behavior, whether in vitro or in silico — and I find the field of artificial intelligence the ideal playground to study them.
+  I am a Full Professor at the <strong>Department of Electronics, Information and Bioengineering</strong> of Politecnico di Milano and a member of its Artificial Intelligence and Robotics Laboratory.
 
-  As a postdoctoral researcher at AIRLab, Politecnico di Milano, I work on <strong>tabular foundation models</strong>, <strong>federated learning</strong>, and <strong>survival analysis</strong>, building models that learn from sensitive, multimodal data — turning scattered information into reliable, trustworthy predictions. I also love teaching and mentoring, and I take part in educational initiatives to promote AI literacy at all levels.
+  My research lies at the intersection of <strong>robotics</strong>, <strong>machine learning</strong>, <strong>computer vision</strong>, and <strong>pattern recognition</strong>. I develop and evaluate learning and perception methods for autonomous physical and software systems, especially when they must act under uncertainty or with incomplete knowledge.
 
-# Contact entries. `label` is what the sidebar shows; `value` is plain text;
-# `url` (optional) makes it a link; `icon` is a hint for the website rendering.
-# `cv` / `website` (default true) toggle visibility per target.
+  Autonomous robots, intelligent vehicles, agricultural robotics, assistive technologies, and intelligent data analysis provide the real-world settings for this work. I am also deeply involved in teaching, doctoral supervision, research coordination, benchmarking, and technology transfer.
+
 contacts:
   - label: Email
-    value: alberto.archetti@polimi.it
-    url: mailto:alberto.archetti@polimi.it
+    value: matteo.matteucci@polimi.it
+    url: mailto:matteo.matteucci@polimi.it
     icon: email
   - label: GitHub
-    value: github.com/archettialberto
-    url: https://github.com/archettialberto
+    value: github.com/matteucci
+    url: https://github.com/matteucci
     icon: github
   - label: LinkedIn
-    value: linkedin.com/in/albertoarchetti
-    url: https://www.linkedin.com/in/albertoarchetti/
+    value: linkedin.com/in/matteo-matteucci-a5b59717
+    url: https://www.linkedin.com/in/matteo-matteucci-a5b59717/
     icon: linkedin
   - label: Scholar
-    value: scholar.google.com/citations?user=--kj4bcAAAAJ
-    url: https://scholar.google.com/citations?user=--kj4bcAAAAJ&hl=en
+    value: scholar.google.com/citations?user=PdbEg5YAAAAJ
+    url: https://scholar.google.com/citations?user=PdbEg5YAAAAJ&hl=en
     icon: scholar
-  - label: Instagram
-    value: instagram.com/aarchetto
-    url: https://www.instagram.com/aarchetto/
-    icon: instagram
-    cv: false        # website only — hidden from the PDF CV
+  - label: Homepage
+    value: matteucci.faculty.polimi.it
+    url: https://matteucci.faculty.polimi.it/
+    icon: website
 
-# Affiliation shown near the name on the website / full CV header.
-affiliation: AIRLab, Politecnico di Milano, Italy
+affiliation: DEIB, Politecnico di Milano, Italy
 
-# Optional GDPR / publication-authorization clause required by Italian public CVs.
-# Set to null to omit from the PDF.
 gdpr_authorization: >
-  Autorizzo al trattamento dati ai sensi del GDPR 2016/679 del 27 aprile 2016
-  (Regolamento Europeo relativo alla protezione delle persone fisiche per quanto
-  riguarda il trattamento dei dati personali). Autorizzo la pubblicazione del
-  Curriculum Vitae sul sito istituzionale del Politecnico di Milano (sez.
-  Amministrazione Trasparente) in ottemperanza al D. Lgs n. 33 del 14 marzo 2013
-  (e s.m.i.).
+  In compliance with Italian Legislative Decree no. 196 of 30 June 2003 and
+  the GDPR (EU 2016/679), I authorize the use and processing of the personal
+  data contained in this curriculum vitae.

@@ -1,27 +1,82 @@
-# Funded research projects (EU, national, regional, …), most recent first.
-# Each entry:
-#   name        (required) project name / acronym
-#   full_name   (optional) expanded title behind the acronym
-#   issuer      (required) funding body / programme that backs the project
-#               e.g. "European Commission · Horizon 2020" or the national
-#               ministry/agency + call. (For EU projects the institution that
-#               runs the project is the "coordinator"; the body that funds it is
-#               what goes here.)
-#   location    (optional) where I carried out the work
-#   role        (required) MY role on the project
-#   start, end  (required) years; use "present" for ongoing
-#   scope       (optional) "European" | "National" | "Regional" — shown as a tag
-#   url         (optional) project / grant page
-#   description (optional) one line on the project's aim
+- name: AgrifoodTEF
+  full_name: Testing and Experimentation Facilities for the Agri-Food Domain
+  issuer: European Commission · Digital Europe
+  location: Politecnico di Milano
+  role: Principal Investigator for Politecnico di Milano
+  start: 2023
+  end: 2027
+  scope: European
+  url: https://agrifoodtef.eu/
+  description: >
+    A European network of real-world facilities for testing and validating AI
+    and robotics solutions in the agri-food domain.
 
 - name: AI-SPRINT
   full_name: Artificial Intelligence in Secure PRIvacy-preserving computing coNTinuum
-  issuer: European Commission · Horizon 2020 (GA 101016577)
-  location: Politecnico di Milano, Milan, Italy
-  role: Federated Learning advisor
+  issuer: European Commission · Horizon 2020
+  location: Politecnico di Milano
+  role: Co-Principal Investigator for the coordinating institution
   start: 2021
   end: 2023
+  scope: European
   url: https://www.ai-sprint-project.eu/
-  # description: >
-  #   A framework for developing and operating AI applications across the
-  #   computing continuum (cloud–edge–IoT), with privacy and security guarantees.
+  description: >
+    Tools for secure, privacy-preserving AI applications across the
+    edge-to-cloud computing continuum.
+
+- name: METRICS
+  full_name: Metrological Evaluation and Testing of Robots in International CompetitionS
+  issuer: European Commission · Horizon 2020
+  location: Politecnico di Milano
+  role: Principal Investigator for Politecnico di Milano
+  start: 2020
+  end: 2022
+  scope: European
+  url: https://metricsproject.eu/
+  description: >
+    Reproducible evaluation and benchmarking of robots, including agri-food
+    competitions.
+
+- name: DeepField
+  full_name: Deep Learning in Field Robotics
+  issuer: European Commission · Horizon 2020
+  location: Politecnico di Milano
+  role: Principal Investigator for Politecnico di Milano
+  start: 2019
+  end: 2022
+  scope: European
+  description: >
+    Deep-learning methods for precision agriculture and field robotics.
+
+- name: SciRoc
+  full_name: European Robotics League plus Smart Cities Robot Competitions
+  issuer: European Commission · Horizon 2020
+  location: Politecnico di Milano
+  role: Principal Investigator for Politecnico di Milano
+  start: 2018
+  end: 2021
+  scope: European
+  url: https://sciroc.eu/
+
+- name: ROAMFREE
+  full_name: Robust Odometry Applying Multisensor Fusion to Reduce Estimation Errors
+  issuer: Italian Ministry of University and Research · PRIN 2009
+  location: Politecnico di Milano
+  role: National Scientific Coordinator
+  start: 2011
+  end: 2013
+  scope: National
+  description: Robust robot odometry through multisensor fusion.
+
+- name: RAWSEEDS
+  full_name: Robotics Advancement through Web-publishing of Sensorial and Elaborated Extensive Data Sets
+  issuer: European Commission · FP6
+  location: Politecnico di Milano
+  role: Project Coordinator
+  start: 2006
+  end: 2009
+  scope: European
+  url: https://www.rawseeds.org/
+  description: >
+    A benchmarking toolkit with multisensor datasets, validated ground truth,
+    and evaluation methods for mobile-robot localization and mapping.

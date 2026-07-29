@@ -20,7 +20,7 @@ import typer
 from .loader import ROOT, load
 from .render_cv import BUILD_DIR, render
 
-app = typer.Typer(add_completion=False, help="Build Alberto Archetti's CVs and website from data/.")
+app = typer.Typer(add_completion=False, help="Build Matteo Matteucci's CV and website from data/.")
 
 theme_app = typer.Typer(add_completion=False, help="Inspect and switch the active visual theme.")
 app.add_typer(theme_app, name="theme")
@@ -122,15 +122,14 @@ def build_theme() -> None:
 
 
 @app.command("build-logo")
-def build_logo(variant: str = typer.Option("two-tone", help="two-tone | outline-back | ghost-back")) -> None:
-    """Regenerate the double-A logo in the active theme's accent color."""
+def build_logo() -> None:
+    """Regenerate the double-M logo in the active theme's accent color."""
     import sys
 
     sys.path.insert(0, str(ROOT))
     from logo.compose import generate_for_theme
 
-    written = generate_for_theme(variant)
-    for name, path in written.items():
+    for path in generate_for_theme():
         typer.secho(f"Wrote {path.relative_to(ROOT)}", fg=typer.colors.GREEN)
 
 
@@ -198,7 +197,7 @@ def _compile(tex: Path, surname: str) -> None:
     typer.secho(f"PDF: {pdf.relative_to(ROOT)}", fg=typer.colors.GREEN)
 
     # Publish the CV to the website's public/ so the same PDF is downloadable
-    # and tracked, named after the profile surname (e.g. archetti-cv.pdf).
+    # and tracked, named after the profile surname (e.g. matteucci-cv.pdf).
     published = ROOT / "website" / "public" / "cv" / f"{surname}-cv.pdf"
     published.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(pdf, published)

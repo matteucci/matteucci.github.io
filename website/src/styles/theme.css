@@ -1,31 +1,31 @@
-/* GENERATED from theme/themes/old-money.yaml by `cv build-theme` — do not edit. */
-@import '@fontsource/cormorant-garamond/400.css';
-@import '@fontsource/cormorant-garamond/600.css';
-@import '@fontsource/cormorant-garamond/700.css';
+/* GENERATED from theme/themes/atlas.yaml by `cv build-theme` — do not edit. */
+@import '@fontsource/manrope/600.css';
+@import '@fontsource/manrope/700.css';
+@import '@fontsource/manrope/800.css';
 @import '@fontsource/manrope/300.css';
 @import '@fontsource/manrope/400.css';
 @import '@fontsource/manrope/500.css';
 @import '@fontsource/manrope/600.css';
 
 :root {
-  --navy: #1A3A52;
-  --navy-rgb: 26 58 82;
-  --gold: #B8860B;
-  --gold-rgb: 184 134 11;
-  --charcoal: #2D2D2D;
-  --charcoal-rgb: 45 45 45;
-  --warmgray: #8C8273;
-  --warmgray-rgb: 140 130 115;
-  --lightnavy: #DCE1E6;
-  --lightnavy-rgb: 220 225 230;
-  --paper: #FBFAF7;
-  --paper-rgb: 251 250 247;
+  --navy: #102C53;
+  --navy-rgb: 16 44 83;
+  --gold: #4D87D4;
+  --gold-rgb: 77 135 212;
+  --charcoal: #1F2937;
+  --charcoal-rgb: 31 41 55;
+  --warmgray: #6B7280;
+  --warmgray-rgb: 107 114 128;
+  --lightnavy: #E2E8F0;
+  --lightnavy-rgb: 226 232 240;
+  --paper: #FFFFFF;
+  --paper-rgb: 255 255 255;
   --sidebartext: #FFFFFF;
   --sidebartext-rgb: 255 255 255;
 
-  --display: 'Cormorant Garamond', Georgia, serif;
+  --display: 'Manrope', system-ui, sans-serif;
   --text: 'Manrope', system-ui, sans-serif;
 
-  --max-width: 920px;
-  --radius: 2px;
+  --max-width: 960px;
+  --radius: 8px;
 }

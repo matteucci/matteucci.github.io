@@ -1,104 +1,103 @@
 {
   "profile": {
-    "name": "Alberto Archetti",
+    "name": "Matteo Matteucci",
     "suffix": "Ph.D.",
-    "title": "Postdoctoral Researcher in Artificial Intelligence",
-    "tagline": "Tabular foundation models · Federated learning · Survival analysis",
-    "summary": "I am a postdoctoral researcher in artificial intelligence at AIRLab, Politecnico di Milano. My work spans tabular foundation models, federated learning, and survival analysis, with a focus on extracting reliable, privacy-preserving insights from sensitive and distributed healthcare data.\n",
-    "bio": "I am fascinated by emerging phenomena — how simple rules give rise to complex behavior, whether in vitro or in silico — and I find the field of artificial intelligence the ideal playground to study them.\n\nAs a postdoctoral researcher at AIRLab, Politecnico di Milano, I work on <strong>tabular foundation models</strong>, <strong>federated learning</strong>, and <strong>survival analysis</strong>, building models that learn from sensitive, multimodal data — turning scattered information into reliable, trustworthy predictions. I also love teaching and mentoring, and I take part in educational initiatives to promote AI literacy at all levels.\n",
-    "affiliation": "AIRLab, Politecnico di Milano, Italy",
+    "title": "Full Professor of Computer Engineering",
+    "tagline": "Robotics · Machine learning · Computer vision · Pattern recognition",
+    "summary": "I am a Full Professor at the Department of Electronics, Information and Bioengineering of Politecnico di Milano. My research develops machine learning and perception methods for autonomous systems, with applications spanning robotics, intelligent vehicles, agriculture, and assistive technologies.\n",
+    "bio": "I am a Full Professor at the <strong>Department of Electronics, Information and Bioengineering</strong> of Politecnico di Milano and a member of its Artificial Intelligence and Robotics Laboratory.\n\nMy research lies at the intersection of <strong>robotics</strong>, <strong>machine learning</strong>, <strong>computer vision</strong>, and <strong>pattern recognition</strong>. I develop and evaluate learning and perception methods for autonomous physical and software systems, especially when they must act under uncertainty or with incomplete knowledge.\n\nAutonomous robots, intelligent vehicles, agricultural robotics, assistive technologies, and intelligent data analysis provide the real-world settings for this work. I am also deeply involved in teaching, doctoral supervision, research coordination, benchmarking, and technology transfer.\n",
+    "affiliation": "DEIB, Politecnico di Milano, Italy",
     "contacts": [
       {
         "label": "Email",
-        "value": "alberto.archetti@polimi.it",
-        "url": "mailto:alberto.archetti@polimi.it",
+        "value": "matteo.matteucci@polimi.it",
+        "url": "mailto:matteo.matteucci@polimi.it",
         "icon": "email",
         "cv": true,
         "website": true
       },
       {
         "label": "GitHub",
-        "value": "github.com/archettialberto",
-        "url": "https://github.com/archettialberto",
+        "value": "github.com/matteucci",
+        "url": "https://github.com/matteucci",
         "icon": "github",
         "cv": true,
         "website": true
       },
       {
         "label": "LinkedIn",
-        "value": "linkedin.com/in/albertoarchetti",
-        "url": "https://www.linkedin.com/in/albertoarchetti/",
+        "value": "linkedin.com/in/matteo-matteucci-a5b59717",
+        "url": "https://www.linkedin.com/in/matteo-matteucci-a5b59717/",
         "icon": "linkedin",
         "cv": true,
         "website": true
       },
       {
         "label": "Scholar",
-        "value": "scholar.google.com/citations?user=--kj4bcAAAAJ",
-        "url": "https://scholar.google.com/citations?user=--kj4bcAAAAJ&hl=en",
+        "value": "scholar.google.com/citations?user=PdbEg5YAAAAJ",
+        "url": "https://scholar.google.com/citations?user=PdbEg5YAAAAJ&hl=en",
         "icon": "scholar",
         "cv": true,
         "website": true
       },
       {
-        "label": "Instagram",
-        "value": "instagram.com/aarchetto",
-        "url": "https://www.instagram.com/aarchetto/",
-        "icon": "instagram",
-        "cv": false,
+        "label": "Homepage",
+        "value": "matteucci.faculty.polimi.it",
+        "url": "https://matteucci.faculty.polimi.it/",
+        "icon": "website",
+        "cv": true,
         "website": true
       }
     ],
-    "gdpr_authorization": "Autorizzo al trattamento dati ai sensi del GDPR 2016/679 del 27 aprile 2016 (Regolamento Europeo relativo alla protezione delle persone fisiche per quanto riguarda il trattamento dei dati personali). Autorizzo la pubblicazione del Curriculum Vitae sul sito istituzionale del Politecnico di Milano (sez. Amministrazione Trasparente) in ottemperanza al D. Lgs n. 33 del 14 marzo 2013 (e s.m.i.).\n"
+    "gdpr_authorization": "In compliance with Italian Legislative Decree no. 196 of 30 June 2003 and the GDPR (EU 2016/679), I authorize the use and processing of the personal data contained in this curriculum vitae.\n"
   },
   "research_interests": [
     {
-      "title": "Tabular Foundation Models",
-      "description": "Building general-purpose deep learning models for in-context learning on tabular data.\n"
+      "title": "Robotics and Autonomous Systems",
+      "description": "Perception, navigation, mapping, sensor fusion, planning, and learning for autonomous robots and intelligent vehicles.\n"
     },
     {
-      "title": "Survival Analysis",
-      "description": "Predicting time-to-event outcomes for clinical data and financial applications.\n"
+      "title": "Machine Learning and Pattern Recognition",
+      "description": "Adaptive models, representation learning, probabilistic methods, and reliable experimental methodologies for intelligent systems.\n"
     },
     {
-      "title": "Federated Learning",
-      "description": "Training models across distributed, siloed datasets while preserving privacy.\n"
+      "title": "Computer Vision",
+      "description": "Visual perception, event-based vision, 3D reconstruction, scene understanding, and multimodal learning.\n"
     },
     {
-      "title": "Machine Learning for Healthcare",
-      "description": "Applying AI to multimodal healthcare data, with a focus on privacy, interpretability, and reliability.\n"
+      "title": "AI for the Physical World",
+      "description": "Applied AI for agriculture, assistive technology, smart eyewear, transportation, medicine, and industrial systems.\n"
     }
   ],
   "skills": [
     {
-      "category": "Programming",
+      "category": "Research",
       "skills": [
-        "Python",
-        "C/C++",
-        "Java",
-        "SQL",
-        "LaTeX",
-        "Bash"
+        "Robotics",
+        "Machine Learning",
+        "Computer Vision",
+        "Pattern Recognition",
+        "Signal Processing"
       ]
     },
     {
-      "category": "Machine Learning",
+      "category": "Autonomous Systems",
       "skills": [
-        "PyTorch",
-        "TensorFlow",
-        "scikit-learn",
-        "Hugging Face",
-        "LangChain",
-        "n8n"
+        "Perception",
+        "SLAM",
+        "Sensor Fusion",
+        "Robot Learning",
+        "Benchmarking"
       ]
     },
     {
-      "category": "Tools",
+      "category": "Application Domains",
       "skills": [
-        "Git",
-        "Docker",
-        "Linux",
-        "SLURM/HPC"
+        "Intelligent Vehicles",
+        "Agricultural Robotics",
+        "Assistive Technologies",
+        "Event-based Vision",
+        "Intelligent Data Analysis"
       ]
     },
     {
@@ -111,721 +110,649 @@
   ],
   "employment": [
     {
-      "role": "Research Fellow",
-      "org": "AIRLab, Politecnico di Milano",
+      "role": "Full Professor",
+      "org": "Department of Electronics, Information and Bioengineering, Politecnico di Milano",
       "location": "Milan, Italy",
-      "start": 2025,
+      "start": 2021,
       "end": "present",
       "details": [
         {
-          "label": "Research topic",
-          "text": "Tabular foundation models for healthcare."
+          "label": "Research",
+          "text": "Robotics, machine learning, computer vision, pattern recognition, and intelligent systems."
         }
       ]
     },
     {
-      "role": "National Ph.D. in Artificial Intelligence for Industry 4.0",
-      "org": "Politecnico di Torino",
-      "location": "Turin, Italy",
-      "start": 2021,
-      "end": 2025,
-      "details": [
-        {
-          "label": "Research topic",
-          "text": "Federated Learning for Survival Analysis."
-        },
-        {
-          "label": "Collaborations",
-          "text": "Research visitor at the Human Technopole, Milan, Italy."
-        }
-      ]
-    },
-    {
-      "role": "Research Internship",
-      "org": "Politecnico di Milano",
+      "role": "Associate Professor",
+      "org": "Department of Electronics, Information and Bioengineering, Politecnico di Milano",
       "location": "Milan, Italy",
-      "start": 2021,
+      "start": 2015,
       "end": 2021,
-      "details": [
-        {
-          "label": "Activities",
-          "text": "Data analysis for anomaly detection; automated knowledge graph extraction.\n"
-        }
-      ]
+      "details": []
+    },
+    {
+      "role": "Assistant Professor",
+      "org": "Department of Electronics and Information, Politecnico di Milano",
+      "location": "Milan, Italy",
+      "start": 2005,
+      "end": 2015,
+      "details": []
+    },
+    {
+      "role": "Research Assistant",
+      "org": "Department of Electronics and Information, Politecnico di Milano",
+      "location": "Milan, Italy",
+      "start": 2003,
+      "end": 2005,
+      "details": []
+    },
+    {
+      "role": "Visiting Student",
+      "org": "Center for Automatic Learning and Discovery, Carnegie Mellon University",
+      "location": "Pittsburgh, PA, USA",
+      "start": 2001,
+      "end": 2002,
+      "details": []
     }
   ],
   "education": [
     {
-      "degree": "National Ph.D. in Artificial Intelligence for Industry 4.0",
-      "org": "Politecnico di Torino",
-      "location": "Italy",
-      "start": 2021,
-      "end": 2025,
+      "degree": "Ph.D. in Computer Engineering and Automation",
+      "org": "Politecnico di Milano",
+      "location": "Milan, Italy",
+      "start": 2000,
+      "end": 2003,
       "grade": null,
-      "thesis": "Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data\n"
+      "thesis": "Evolutionary Learning of Adaptive Models within a Bayesian Framework"
     },
     {
-      "degree": "Master of Science in Computer Science and Engineering",
+      "degree": "Master of Science in Knowledge Discovery and Data Mining",
+      "org": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA, USA",
+      "start": 2001,
+      "end": 2002,
+      "grade": null,
+      "thesis": "ELeaRNT: Evolutionary Learning of Rich Neural Network Topologies"
+    },
+    {
+      "degree": "Laurea in Computer Engineering",
       "org": "Politecnico di Milano",
-      "location": "Italy",
-      "start": 2018,
-      "end": 2021,
-      "grade": "110/110 cum Laude",
-      "thesis": "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*\n"
-    },
-    {
-      "degree": "Bachelor's Degree in Computer Science and Engineering",
-      "org": "Politecnico di Milano",
-      "location": "Italy",
-      "start": 2015,
-      "end": 2018,
-      "grade": "110/110 cum Laude",
-      "thesis": null
-    },
-    {
-      "degree": "Diploma di Liceo Scientifico",
-      "org": "Madonna della Neve",
-      "location": "Italy",
-      "start": 2010,
-      "end": 2015,
-      "grade": "100/100",
-      "thesis": null
+      "location": "Milan, Italy",
+      "start": 1993,
+      "end": 1999,
+      "grade": null,
+      "thesis": "Rappresentazione della conoscenza fuzzy e a intervalli per algoritmi di apprendimento per rinforzo applicati ad agenti situati\n"
     }
   ],
   "teaching": [
     {
-      "role": "Teaching Assistant",
+      "role": "Lecturer and Coordinator",
       "org": "Politecnico di Milano",
       "year": 2026,
-      "course": "AI Bootcamp",
-      "degree": "TechCamp@PoliMI",
-      "hours": 15,
-      "note": null
+      "course": "Machine Learning",
+      "degree": "MSc in Bioinformatics for Computational Genomics",
+      "hours": null,
+      "note": "Coordinator since 2020"
     },
     {
-      "role": "Teaching Assistant",
+      "role": "Lecturer and Coordinator",
       "org": "Politecnico di Milano",
       "year": 2026,
-      "course": "Advanced Deep Learning",
-      "degree": "MSc",
-      "hours": 10,
-      "note": null
-    },
-    {
-      "role": "Teaching Assistant",
-      "org": "Politecnico di Milano",
-      "year": 2025,
-      "course": "AI Bootcamp",
-      "degree": "TechCamp@PoliMI",
-      "hours": 15,
-      "note": null
-    },
-    {
-      "role": "Teaching Assistant",
-      "org": "CEFRIEL",
-      "year": 2025,
-      "course": "AI Product Management Bootcamp",
-      "degree": "Corporate Training",
-      "hours": 6,
-      "note": null
-    },
-    {
-      "role": "Teaching Assistant",
-      "org": "Politecnico di Milano",
-      "year": 2025,
       "course": "Artificial Neural Networks and Deep Learning",
-      "degree": "MSc",
-      "hours": 20,
+      "degree": "MSc in Computer Science and Engineering",
+      "hours": null,
+      "note": "Coordinator since 2019"
+    },
+    {
+      "role": "Lecturer and Coordinator",
+      "org": "Politecnico di Milano",
+      "year": 2026,
+      "course": "Robotics",
+      "degree": "MSc and BSc in Computer Science and Engineering",
+      "hours": null,
+      "note": "Coordinator since 2016"
+    },
+    {
+      "role": "Lecturer",
+      "org": "Politecnico di Milano",
+      "year": 2020,
+      "course": "Machine Learning for Non-Matrix Data",
+      "degree": "Ph.D. in Information Technology",
+      "hours": null,
       "note": null
     },
     {
-      "role": "Teaching Assistant",
+      "role": "Lecturer and Coordinator",
       "org": "Politecnico di Milano",
-      "year": 2024,
-      "course": "Artificial Neural Networks and Deep Learning",
-      "degree": "MSc",
-      "hours": 20,
+      "year": 2019,
+      "course": "Advances in Deep Learning with Applications in Text and Image Processing",
+      "degree": "Ph.D. in Information Engineering",
+      "hours": null,
       "note": null
     },
     {
-      "role": "Teaching Assistant",
+      "role": "Lecturer and Coordinator",
       "org": "Politecnico di Milano",
-      "year": 2024,
-      "course": "AI Bootcamp",
-      "degree": "TechCamp@PoliMI",
-      "hours": 15,
-      "note": null
-    },
-    {
-      "role": "Teaching Assistant",
-      "org": "Politecnico di Milano",
-      "year": 2024,
-      "course": "Coding Bootcamp",
-      "degree": "TechCamp@PoliMI",
-      "hours": 15,
-      "note": null
-    },
-    {
-      "role": "Lab Tutor",
-      "org": "Politecnico di Milano",
-      "year": 2024,
-      "course": "Software Engineering",
-      "degree": "BSc",
-      "hours": 32,
-      "note": null
-    },
-    {
-      "role": "Teaching Assistant",
-      "org": "Politecnico di Milano",
-      "year": 2023,
-      "course": "Coding Bootcamp",
-      "degree": "TechCamp@PoliMI",
-      "hours": 15,
-      "note": null
-    },
-    {
-      "role": "Lab Tutor",
-      "org": "Politecnico di Milano",
-      "year": 2023,
-      "course": "Software Engineering",
-      "degree": "BSc",
-      "hours": 32,
-      "note": null
-    },
-    {
-      "role": "Teaching Assistant",
-      "org": "Politecnico di Milano",
-      "year": 2022,
-      "course": "Coding Bootcamp",
-      "degree": "TechCamp@PoliMI",
-      "hours": 30,
-      "note": null
-    },
-    {
-      "role": "Lab Tutor",
-      "org": "Politecnico di Milano",
-      "year": 2022,
-      "course": "Software Engineering",
-      "degree": "BSc",
-      "hours": 32,
+      "year": 2018,
+      "course": "Deep Learning: Theory, Techniques and Applications",
+      "degree": "Ph.D. in Information Engineering",
+      "hours": null,
       "note": null
     }
   ],
   "talks": [
     {
-      "title": "SurvKAN: A Fully Parametric Survival Model Based on Kolmogorov-Arnold Networks",
-      "event": "European Conference on Artificial Intelligence (ECAI)",
-      "year": 2026,
-      "location": "Maastricht, Netherlands",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "Deep Variational Contrastive Learning for Joint Risk Stratification and Time-to-Event Estimation",
-      "event": "European Conference on Artificial Intelligence (ECAI)",
-      "year": 2026,
-      "location": "Maastricht, Netherlands",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "FPBoost: Fully Parametric Gradient Boosting for Survival Analysis",
-      "event": "European Conference on Artificial Intelligence (ECAI)",
-      "year": 2025,
-      "location": "Bologna, Italy",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "Discriminative adversarial privacy: balancing accuracy and membership privacy in neural networks",
-      "event": "British Machine Vision Conference (BMVC)",
+      "title": "La percezione dei robot ai tempi dell'AI: precisione o flessibilità?",
+      "event": "BI-MU and I-RIM",
       "year": 2024,
-      "location": "Aberdeen, Scotland",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "Federated Survival Forests",
-      "event": "International Joint Conference on Neural Networks (IJCNN)",
-      "year": 2023,
-      "location": "Broadbeach, Australia",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "Deep Survival Analysis for Healthcare: An Empirical Study on Post-Processing Techniques",
-      "event": "AIxIA Workshop on Artificial Intelligence For Healthcare",
-      "year": 2023,
-      "location": "Rome, Italy",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "Federated Survival Analysis",
-      "event": "AIxIA Workshop on Machine Learning and Data Mining",
-      "year": 2022,
-      "location": "Udine, Italy",
-      "kind": "Conference talk",
-      "url": null
-    },
-    {
-      "title": "Federated and Privacy-Preserving Learning",
-      "event": "PhD Lecture, Politecnico di Milano",
-      "year": 2022,
       "location": "Milan, Italy",
-      "kind": "Seminar",
+      "kind": "Invited talk",
       "url": null
     },
     {
-      "title": "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*",
-      "event": "Conference on Machine Learning, Optimization, and Data Science (LOD)",
-      "year": 2021,
-      "location": "Grasmere, England",
-      "kind": "Conference talk",
+      "title": "Autonomous Driving and Artificial Intelligence",
+      "event": "AIxIA 2018",
+      "year": 2018,
+      "location": "Trento, Italy",
+      "kind": "Invited talk",
+      "url": null
+    },
+    {
+      "title": "Do Big Data Make Common Sense?",
+      "event": "Big Data e Robotica nella fabbrica digitale connessa",
+      "year": 2017,
+      "location": "Milan, Italy",
+      "kind": "Invited talk",
+      "url": null
+    },
+    {
+      "title": "Modular Development of Service Robots",
+      "event": "A&T — Robot & Co.",
+      "year": 2016,
+      "location": "Turin, Italy",
+      "kind": "Invited talk",
+      "url": null
+    },
+    {
+      "title": "Robotics Benchmarking and Good Experimental Methodologies",
+      "event": "European Robotics Forum",
+      "year": 2016,
+      "location": "Ljubljana, Slovenia",
+      "kind": "Invited talk",
       "url": null
     }
   ],
   "supervision": [
     {
-      "student": "Pinar Erbil",
-      "degree": "MSc thesis",
-      "title": "Deep Variational Contrastive Learning for Risk Stratification and Time-to-Event Estimation",
+      "student": "Cristian Sbrolli",
+      "degree": "Ph.D. student",
+      "title": "Multimodal and generative learning for visual understanding",
       "year": 2026,
-      "role": "Co-advisor"
+      "role": "Advisor"
     },
     {
-      "student": "Marina Mastroleo",
-      "degree": "MSc thesis",
-      "title": "SurvKAN: Fully Parametric Survival Modeling with Kolmogorov-Arnold Networks",
+      "student": "Nico Catalano",
+      "degree": "Ph.D. student",
+      "title": "Few-shot learning and computer vision for precision agriculture",
       "year": 2026,
-      "role": "Co-advisor"
+      "role": "Advisor"
     },
     {
-      "student": "Sofia Perini",
-      "degree": "MSc thesis",
-      "title": "Exploring multimodality in federated survival analysis",
+      "student": "Eugenio Lomurno",
+      "degree": "Ph.D. student",
+      "title": "Reliable machine learning, synthetic data, and privacy",
       "year": 2026,
-      "role": "Co-advisor"
+      "role": "Advisor"
     },
     {
-      "student": "Emanuele Paesano",
-      "degree": "MSc thesis",
-      "title": "A multimodal framework for survival analysis integrating clinical, genomic, histopathological and textual data",
-      "year": 2025,
-      "role": "Co-advisor"
+      "student": "Matteo Frosi",
+      "degree": "Ph.D. student",
+      "title": "3D perception and SLAM with learned priors",
+      "year": 2026,
+      "role": "Advisor"
     },
     {
-      "student": "Niccolò Maria Rizzi",
-      "degree": "MSc thesis",
-      "title": "A generative pipeline for high-quality synthetic survival datasets",
-      "year": 2025,
-      "role": "Co-advisor"
-    },
-    {
-      "student": "Gabriele Giusti",
-      "degree": "MSc thesis",
-      "title": "Multi-Agent Reinforcement Learning for emergent molecular communication in diffusion-based environments",
-      "year": 2025,
-      "role": "Co-advisor"
-    },
-    {
-      "student": "Andrea Menta",
-      "degree": "MSc thesis",
-      "title": "Image restoration via Latent Neural Cellular Automata",
-      "year": 2023,
-      "role": "Co-advisor"
-    },
-    {
-      "student": "Simone Cimmino",
-      "degree": "MSc thesis",
-      "title": "A pipeline for company industrial sector classification from unstructured website content",
+      "student": "Marco Cannici",
+      "degree": "Ph.D.",
+      "title": "Learning Efficient and Effective Representations for Event-based Cameras",
       "year": 2022,
+      "role": "Advisor"
+    },
+    {
+      "student": "Simone Mentasti",
+      "degree": "Ph.D.",
+      "title": "Embedded AI and sensor fusion for autonomous vehicles",
+      "year": 2022,
+      "role": "Advisor"
+    },
+    {
+      "student": "Andrea Romanoni",
+      "degree": "Ph.D.",
+      "title": "Incremental Large-Scale Visual 3D Mesh Reconstruction",
+      "year": 2017,
+      "role": "Advisor"
+    },
+    {
+      "student": "Francesco Visin",
+      "degree": "Ph.D.",
+      "title": "Deep recurrent neural networks for visual scene understanding",
+      "year": 2017,
+      "role": "Advisor"
+    },
+    {
+      "student": "Martino Migliavacca",
+      "degree": "Ph.D.",
+      "title": "The R2P framework for robot prototyping",
+      "year": 2014,
       "role": "Co-advisor"
     },
     {
-      "student": "Sara Sacco",
-      "degree": "MSc thesis",
-      "title": "Analisi spettrale per il rilevamento di anomalie: studio sulla sopravvivenza degli estensimetri a corda per Snam S.p.A.",
-      "year": 2022,
-      "role": "Co-advisor"
+      "student": "Luigi Malagò",
+      "degree": "Ph.D.",
+      "title": "On the geometry of optimization based on the exponential family relaxation",
+      "year": 2011,
+      "role": "Advisor"
     }
   ],
   "awards": [
     {
-      "title": "Special Mention for Best Paper",
-      "org": "LOD 2021 — 7th International Conference on Machine Learning, Optimization, and Data Science",
-      "year": 2021,
+      "title": "NVIDIA Academic Grant Award",
+      "org": "NVIDIA",
+      "year": 2025,
+      "note": "Four RTX PRO 6000 Blackwell Max-Q Workstation Edition GPUs"
+    },
+    {
+      "title": "Leonardo Fibonacci Best Paper Award",
+      "org": "11th International Conference on Machine Learning, Optimization, and Data Science",
+      "year": 2025,
+      "note": "Neuro-Symbolic Scene Graph Conditioning for Synthetic Image Dataset Generation"
+    },
+    {
+      "title": "Outstanding Reviewer Award",
+      "org": "British Machine Vision Conference",
+      "year": 2020,
       "note": null
     },
     {
-      "title": "Honours Programme: Scientific Research in Information Technology",
-      "org": "Politecnico di Milano",
-      "year": 2021,
+      "title": "Best Paper Award",
+      "org": "CVPR Workshop on Event-based Vision and Smart Cameras",
+      "year": 2019,
+      "note": "Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras"
+    },
+    {
+      "title": "Best Paper Award",
+      "org": "DeepVision at CVPR",
+      "year": 2016,
+      "note": "ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation"
+    },
+    {
+      "title": "Antonio D'Auria Prize and Intesa Sanpaolo Startup Initiative",
+      "org": "RobyWheelChair project",
+      "year": 2011,
+      "note": null
+    },
+    {
+      "title": "Dimitris N. Chorafas Foundation Award",
+      "org": "Best Ph.D. thesis",
+      "year": 2003,
+      "note": null
+    },
+    {
+      "title": "Rotary Foundation Ambassadorial Scholarship",
+      "org": "Rotary Foundation",
+      "year": 2001,
       "note": null
     }
   ],
   "projects": [
     {
+      "name": "AgrifoodTEF",
+      "full_name": "Testing and Experimentation Facilities for the Agri-Food Domain",
+      "issuer": "European Commission · Digital Europe",
+      "location": "Politecnico di Milano",
+      "role": "Principal Investigator for Politecnico di Milano",
+      "start": 2023,
+      "end": 2027,
+      "scope": "European",
+      "url": "https://agrifoodtef.eu/",
+      "description": "A European network of real-world facilities for testing and validating AI and robotics solutions in the agri-food domain.\n"
+    },
+    {
       "name": "AI-SPRINT",
       "full_name": "Artificial Intelligence in Secure PRIvacy-preserving computing coNTinuum",
-      "issuer": "European Commission · Horizon 2020 (GA 101016577)",
-      "location": "Politecnico di Milano, Milan, Italy",
-      "role": "Federated Learning advisor",
+      "issuer": "European Commission · Horizon 2020",
+      "location": "Politecnico di Milano",
+      "role": "Co-Principal Investigator for the coordinating institution",
       "start": 2021,
       "end": 2023,
-      "scope": null,
+      "scope": "European",
       "url": "https://www.ai-sprint-project.eu/",
+      "description": "Tools for secure, privacy-preserving AI applications across the edge-to-cloud computing continuum.\n"
+    },
+    {
+      "name": "METRICS",
+      "full_name": "Metrological Evaluation and Testing of Robots in International CompetitionS",
+      "issuer": "European Commission · Horizon 2020",
+      "location": "Politecnico di Milano",
+      "role": "Principal Investigator for Politecnico di Milano",
+      "start": 2020,
+      "end": 2022,
+      "scope": "European",
+      "url": "https://metricsproject.eu/",
+      "description": "Reproducible evaluation and benchmarking of robots, including agri-food competitions.\n"
+    },
+    {
+      "name": "DeepField",
+      "full_name": "Deep Learning in Field Robotics",
+      "issuer": "European Commission · Horizon 2020",
+      "location": "Politecnico di Milano",
+      "role": "Principal Investigator for Politecnico di Milano",
+      "start": 2019,
+      "end": 2022,
+      "scope": "European",
+      "url": null,
+      "description": "Deep-learning methods for precision agriculture and field robotics.\n"
+    },
+    {
+      "name": "SciRoc",
+      "full_name": "European Robotics League plus Smart Cities Robot Competitions",
+      "issuer": "European Commission · Horizon 2020",
+      "location": "Politecnico di Milano",
+      "role": "Principal Investigator for Politecnico di Milano",
+      "start": 2018,
+      "end": 2021,
+      "scope": "European",
+      "url": "https://sciroc.eu/",
       "description": null
+    },
+    {
+      "name": "ROAMFREE",
+      "full_name": "Robust Odometry Applying Multisensor Fusion to Reduce Estimation Errors",
+      "issuer": "Italian Ministry of University and Research · PRIN 2009",
+      "location": "Politecnico di Milano",
+      "role": "National Scientific Coordinator",
+      "start": 2011,
+      "end": 2013,
+      "scope": "National",
+      "url": null,
+      "description": "Robust robot odometry through multisensor fusion."
+    },
+    {
+      "name": "RAWSEEDS",
+      "full_name": "Robotics Advancement through Web-publishing of Sensorial and Elaborated Extensive Data Sets",
+      "issuer": "European Commission · FP6",
+      "location": "Politecnico di Milano",
+      "role": "Project Coordinator",
+      "start": 2006,
+      "end": 2009,
+      "scope": "European",
+      "url": "https://www.rawseeds.org/",
+      "description": "A benchmarking toolkit with multisensor datasets, validated ground truth, and evaluation methods for mobile-robot localization and mapping.\n"
     }
   ],
   "publications": [
     {
-      "key": "erbil2026deepvariational",
-      "kind": "conference",
-      "title": "Deep Variational Contrastive Learning for Joint Risk Stratification and Time-to-Event Estimation",
+      "key": "usuelli2026agrigsslam",
+      "kind": "journal",
+      "title": "AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM",
       "authors": [
-        "Erbil, P.",
-        "Archetti, Alberto",
-        "Lomurno, E.",
-        "Matteucci, M."
+        "Usuelli, Mirko",
+        "Rapado-Rincon, David",
+        "Kootstra, Gert",
+        "Matteucci, Matteo"
       ],
       "year": 2026,
-      "venue": "2026 International Joint Conference on Neural Networks (IJCNN)",
+      "venue": "IEEE Robotics and Automation Letters",
       "volume": null,
       "pages": null,
       "doi": null,
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@inproceedings{erbil2026deepvariational,\n  author = {Erbil, P. and Archetti, Alberto and Lomurno, E. and Matteucci, M.},\n  booktitle = {2026 International Joint Conference on Neural Networks (IJCNN)},\n  title = {Deep Variational Contrastive Learning for Joint Risk Stratification and Time-to-Event Estimation},\n  year = {2026}\n}",
-      "citations": 0,
-      "selected": false
+      "bibtex": "@article{usuelli2026agrigsslam,\n  author = {Usuelli, Mirko and Rapado-Rincon, David and Kootstra, Gert and Matteucci, Matteo},\n  journal = {IEEE Robotics and Automation Letters},\n  selected = {true},\n  title = {AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM},\n  year = {2026}\n}",
+      "citations": null,
+      "selected": true
     },
     {
-      "key": "mastroleo2026survkan",
+      "key": "sbrolli2026sceneforge",
       "kind": "conference",
-      "title": "SurvKAN: A Fully Parametric Survival Model Based on Kolmogorov-Arnold Networks",
+      "title": "SCENEFORGE: Enhancing 3D-Text Alignment with Structured Scene Compositions",
       "authors": [
-        "Mastroleo, M.",
-        "Archetti, Alberto",
-        "Mastroleo, F.",
-        "Matteucci, M."
+        "Sbrolli, Cristian",
+        "Matteucci, Matteo"
       ],
       "year": 2026,
-      "venue": "2026 International Joint Conference on Neural Networks (IJCNN)",
-      "volume": null,
-      "pages": null,
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": "38",
+      "pages": "84731--84750",
       "doi": null,
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@inproceedings{mastroleo2026survkan,\n  author = {Mastroleo, M. and Archetti, Alberto and Mastroleo, F. and Matteucci, M.},\n  booktitle = {2026 International Joint Conference on Neural Networks (IJCNN)},\n  selected = {true},\n  title = {SurvKAN: A Fully Parametric Survival Model Based on Kolmogorov-Arnold Networks},\n  year = {2026}\n}",
-      "citations": 0,
+      "bibtex": "@inproceedings{sbrolli2026sceneforge,\n  author = {Sbrolli, Cristian and Matteucci, Matteo},\n  booktitle = {Advances in Neural Information Processing Systems},\n  pages = {84731--84750},\n  selected = {true},\n  title = {{SCENEFORGE}: Enhancing 3D-Text Alignment with Structured Scene Compositions},\n  volume = {38},\n  year = {2026}\n}",
+      "citations": null,
       "selected": true
     },
     {
-      "key": "sabella2026quail",
-      "kind": "preprint",
-      "title": "QuAIL: Quality-Aware Inertial Learning for Robust Training under Data Corruption",
+      "key": "long2026dgcmam",
+      "kind": "conference",
+      "title": "DGCMam: Fusing Distance Graph Convolution and Mamba for Skeleton-Based Action Recognition",
       "authors": [
-        "Sabella, M.",
-        "Archetti, Alberto",
-        "Pinoli, P.",
-        "Matteucci, M.",
-        "Cappiello, C."
+        "Long, Juncen",
+        "Bardaro, Gianluca",
+        "Mentasti, Simone",
+        "Matteucci, Matteo"
       ],
       "year": 2026,
-      "venue": null,
-      "volume": null,
-      "pages": null,
-      "doi": null,
-      "arxiv": "2602.03686",
-      "keywords": [],
-      "bibtex": "@misc{sabella2026quail,\n  archiveprefix = {arXiv},\n  author = {Sabella, M. and Archetti, Alberto and Pinoli, P. and Matteucci, M. and Cappiello, C.},\n  eprint = {2602.03686},\n  title = {QuAIL: Quality-Aware Inertial Learning for Robust Training under Data Corruption},\n  year = {2026}\n}",
-      "citations": 0,
-      "selected": false
-    },
-    {
-      "key": "archetti2025fpboost",
-      "kind": "conference",
-      "title": "FPBoost: Fully Parametric Gradient Boosting for Survival Analysis",
-      "authors": [
-        "Archetti, Alberto",
-        "Lomurno, E.",
-        "Piccinotti, D.",
-        "Matteucci, M."
-      ],
-      "year": 2025,
-      "venue": "European Conference on Artificial Intelligence (ECAI)",
+      "venue": "IEEE International Conference on Automatic Face and Gesture Recognition",
       "volume": null,
       "pages": null,
       "doi": null,
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@inproceedings{archetti2025fpboost,\n  author = {Archetti, Alberto and Lomurno, E. and Piccinotti, D. and Matteucci, M.},\n  booktitle = {European Conference on Artificial Intelligence (ECAI)},\n  selected = {true},\n  title = {FPBoost: Fully Parametric Gradient Boosting for Survival Analysis},\n  year = {2025}\n}",
-      "citations": 7,
-      "selected": true
+      "bibtex": "@inproceedings{long2026dgcmam,\n  author = {Long, Juncen and Bardaro, Gianluca and Mentasti, Simone and Matteucci, Matteo},\n  booktitle = {IEEE International Conference on Automatic Face and Gesture Recognition},\n  title = {{DGCMam}: Fusing Distance Graph Convolution and Mamba for Skeleton-Based Action Recognition},\n  year = {2026}\n}",
+      "citations": null,
+      "selected": false
     },
     {
-      "key": "archetti2025emergent",
+      "key": "plizzari2021skeleton",
       "kind": "journal",
-      "title": "Emergent Molecular Communication: Preliminary Results With Graph Neural Networks and Diffusion Channels",
+      "title": "Skeleton-Based Action Recognition via Spatial and Temporal Transformer Networks",
       "authors": [
-        "Archetti, Alberto",
-        "Giusti, G.",
-        "Gorla, K. R.",
-        "Caputo, S.",
-        "Magarini, M.",
-        "Matteucci, M.",
-        "Mucchi, L.",
-        "Pierobon, M."
+        "Plizzari, Chiara",
+        "Cannici, Marco",
+        "Matteucci, Matteo"
       ],
-      "year": 2025,
-      "venue": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
-      "volume": null,
-      "pages": null,
-      "doi": null,
+      "year": 2021,
+      "venue": "Computer Vision and Image Understanding",
+      "volume": "208",
+      "pages": "103219",
+      "doi": "10.1016/j.cviu.2021.103219",
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@article{archetti2025emergent,\n  author = {Archetti, Alberto and Giusti, G. and Gorla, K. R. and Caputo, S. and Magarini, M. and Matteucci, M. and Mucchi, L. and Pierobon, M.},\n  journal = {IEEE Transactions on Molecular, Biological, and Multi-Scale Communications},\n  title = {Emergent Molecular Communication: Preliminary Results With Graph Neural Networks and Diffusion Channels},\n  year = {2025}\n}",
-      "citations": 1,
-      "selected": false
+      "bibtex": "@article{plizzari2021skeleton,\n  author = {Plizzari, Chiara and Cannici, Marco and Matteucci, Matteo},\n  doi = {10.1016/j.cviu.2021.103219},\n  journal = {Computer Vision and Image Understanding},\n  pages = {103219},\n  selected = {true},\n  title = {Skeleton-Based Action Recognition via Spatial and Temporal Transformer Networks},\n  volume = {208},\n  year = {2021}\n}",
+      "citations": 523,
+      "selected": true
     },
     {
-      "key": "archetti2025federated",
-      "kind": "conference",
-      "title": "Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data",
-      "authors": [
-        "Alberto Archetti"
-      ],
-      "year": 2025,
-      "venue": "",
-      "volume": null,
-      "pages": null,
-      "doi": null,
-      "arxiv": null,
-      "keywords": [],
-      "bibtex": "@inproceedings{archetti2025federated,\n  author = {Alberto Archetti},\n  booktitle = {},\n  title = {Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data},\n  year = {2025}\n}",
-      "citations": 0,
-      "selected": false
-    },
-    {
-      "key": "archetti2024bridging",
+      "key": "bertoglio2021digital",
       "kind": "journal",
-      "title": "Bridging the gap: improve neural survival models with interpolation techniques",
+      "title": "The Digital Agricultural Revolution: A Bibliometric Analysis Literature Review",
       "authors": [
-        "Archetti, Alberto",
-        "Stranieri, F.",
-        "Matteucci, M."
+        "Bertoglio, Riccardo",
+        "Corbo, Chiara",
+        "Renga, Filippo M.",
+        "Matteucci, Matteo"
       ],
-      "year": 2024,
-      "venue": "Progress in Artificial Intelligence",
-      "volume": null,
-      "pages": "1--16",
-      "doi": null,
+      "year": 2021,
+      "venue": "IEEE Access",
+      "volume": "9",
+      "pages": "134762--134782",
+      "doi": "10.1109/ACCESS.2021.3115258",
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@article{archetti2024bridging,\n  author = {Archetti, Alberto and Stranieri, F. and Matteucci, M.},\n  journal = {Progress in Artificial Intelligence},\n  pages = {1--16},\n  selected = {true},\n  title = {Bridging the gap: improve neural survival models with interpolation techniques},\n  year = {2024}\n}",
-      "citations": 4,
+      "bibtex": "@article{bertoglio2021digital,\n  author = {Bertoglio, Riccardo and Corbo, Chiara and Renga, Filippo M. and Matteucci, Matteo},\n  doi = {10.1109/ACCESS.2021.3115258},\n  journal = {IEEE Access},\n  pages = {134762--134782},\n  selected = {true},\n  title = {The Digital Agricultural Revolution: A Bibliometric Analysis Literature Review},\n  volume = {9},\n  year = {2021}\n}",
+      "citations": 224,
       "selected": true
     },
     {
-      "key": "menta2024latent",
-      "kind": "conference",
-      "title": "Latent neural cellular automata for resource-efficient image restoration",
-      "authors": [
-        "Menta, A.",
-        "Archetti, Alberto",
-        "Matteucci, M."
-      ],
-      "year": 2024,
-      "venue": "Artificial Life Conference Proceedings 36",
-      "volume": "2024",
-      "pages": null,
-      "doi": null,
-      "arxiv": null,
-      "keywords": [],
-      "bibtex": "@inproceedings{menta2024latent,\n  author = {Menta, A. and Archetti, Alberto and Matteucci, M.},\n  booktitle = {Artificial Life Conference Proceedings 36},\n  number = {1},\n  organization = {MIT Press One Rogers Street, Cambridge},\n  title = {Latent neural cellular automata for resource-efficient image restoration},\n  volume = {2024},\n  year = {2024}\n}",
-      "citations": 6,
-      "selected": false
-    },
-    {
-      "key": "archetti2023scaling",
+      "key": "vali2020landcover",
       "kind": "journal",
-      "title": "Scaling survival analysis in healthcare with federated survival forests: A comparative study on heart failure and breast cancer genomics",
+      "title": "Deep Learning for Land Use and Land Cover Classification Based on Hyperspectral and Multispectral Earth Observation Data: A Review",
       "authors": [
-        "Archetti, Alberto",
-        "Ieva, F.",
-        "Matteucci, M."
+        "Vali, Ava",
+        "Comai, Sara",
+        "Matteucci, Matteo"
       ],
-      "year": 2023,
-      "venue": "Future Generation Computer Systems",
-      "volume": "149",
-      "pages": "343--358",
-      "doi": "10.1016/j.future.2023.07.036",
+      "year": 2020,
+      "venue": "Remote Sensing",
+      "volume": "12",
+      "pages": "2495",
+      "doi": "10.3390/rs12152495",
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@article{archetti2023scaling,\n  author = {Archetti, Alberto and Ieva, F. and Matteucci, M.},\n  doi = {10.1016/j.future.2023.07.036},\n  journal = {Future Generation Computer Systems},\n  pages = {343--358},\n  selected = {true},\n  title = {Scaling survival analysis in healthcare with federated survival forests: A comparative study on heart failure and breast cancer genomics},\n  volume = {149},\n  year = {2023}\n}",
-      "citations": 29,
+      "bibtex": "@article{vali2020landcover,\n  author = {Vali, Ava and Comai, Sara and Matteucci, Matteo},\n  doi = {10.3390/rs12152495},\n  journal = {Remote Sensing},\n  number = {15},\n  pages = {2495},\n  selected = {true},\n  title = {Deep Learning for Land Use and Land Cover Classification Based on Hyperspectral and Multispectral Earth Observation Data: A Review},\n  volume = {12},\n  year = {2020}\n}",
+      "citations": 575,
       "selected": true
     },
     {
-      "key": "archetti2023heterogeneous",
-      "kind": "workshop",
-      "title": "Heterogeneous Datasets for Federated Survival Analysis Simulation",
-      "authors": [
-        "Archetti, Alberto",
-        "Lomurno, E.",
-        "Lattari, F.",
-        "Martin, A.",
-        "Matteucci, M."
-      ],
-      "year": 2023,
-      "venue": "Companion of the 2023 ACM/SPEC International Conference on Performance Engineering",
-      "volume": null,
-      "pages": "173--180",
-      "doi": "10.1145/3578245.3584935",
-      "arxiv": null,
-      "keywords": [
-        "workshop"
-      ],
-      "bibtex": "@inproceedings{archetti2023heterogeneous,\n  author = {Archetti, Alberto and Lomurno, E. and Lattari, F. and Martin, A. and Matteucci, M.},\n  booktitle = {Companion of the 2023 ACM/SPEC International Conference on Performance Engineering},\n  doi = {10.1145/3578245.3584935},\n  keywords = {workshop},\n  pages = {173--180},\n  title = {Heterogeneous Datasets for Federated Survival Analysis Simulation},\n  year = {2023}\n}",
-      "citations": 20,
-      "selected": false
-    },
-    {
-      "key": "archetti2023federated",
+      "key": "cannici2020differentiable",
       "kind": "conference",
-      "title": "Federated Survival Forests",
+      "title": "A Differentiable Recurrent Surface for Asynchronous Event-Based Data",
       "authors": [
-        "Archetti, Alberto",
-        "Matteucci, M."
+        "Cannici, Marco",
+        "Ciccone, Marco",
+        "Romanoni, Andrea",
+        "Matteucci, Matteo"
       ],
-      "year": 2023,
-      "venue": "2023 International Joint Conference on Neural Networks (IJCNN)",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision",
       "volume": null,
-      "pages": "1--9",
-      "doi": "10.1109/IJCNN54540.2023.10190999",
+      "pages": "136--152",
+      "doi": "10.1007/978-3-030-58598-3_9",
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@inproceedings{archetti2023federated,\n  author = {Archetti, Alberto and Matteucci, M.},\n  booktitle = {2023 International Joint Conference on Neural Networks (IJCNN)},\n  doi = {10.1109/IJCNN54540.2023.10190999},\n  pages = {1--9},\n  selected = {true},\n  title = {Federated Survival Forests},\n  year = {2023}\n}",
-      "citations": 33,
-      "selected": true
-    },
-    {
-      "key": "archetti2023deepsurvival",
-      "kind": "workshop",
-      "title": "Deep Survival Analysis for Healthcare: An Empirical Study on Post-Processing Techniques",
-      "authors": [
-        "Archetti, Alberto",
-        "Stranieri, F.",
-        "Matteucci, M."
-      ],
-      "year": 2023,
-      "venue": "CEUR Workshop Proceedings",
-      "volume": "3578",
-      "pages": "99--121",
-      "doi": null,
-      "arxiv": null,
-      "keywords": [
-        "workshop"
-      ],
-      "bibtex": "@inproceedings{archetti2023deepsurvival,\n  author = {Archetti, Alberto and Stranieri, F. and Matteucci, M.},\n  booktitle = {CEUR Workshop Proceedings},\n  keywords = {workshop},\n  pages = {99--121},\n  title = {Deep Survival Analysis for Healthcare: An Empirical Study on Post-Processing Techniques},\n  volume = {3578},\n  year = {2023}\n}",
-      "citations": 4,
+      "bibtex": "@inproceedings{cannici2020differentiable,\n  author = {Cannici, Marco and Ciccone, Marco and Romanoni, Andrea and Matteucci, Matteo},\n  booktitle = {European Conference on Computer Vision},\n  doi = {10.1007/978-3-030-58598-3_9},\n  pages = {136--152},\n  title = {A Differentiable Recurrent Surface for Asynchronous Event-Based Data},\n  year = {2020}\n}",
+      "citations": 191,
       "selected": false
     },
     {
-      "key": "lomurno2023discriminative",
+      "key": "cannici2019asynchronous",
       "kind": "conference",
-      "title": "Discriminative adversarial privacy: balancing accuracy and membership privacy in neural networks",
+      "title": "Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras",
       "authors": [
-        "Lomurno, E.",
-        "Archetti, Alberto",
-        "Ausonio, F.",
-        "Matteucci, M."
+        "Cannici, Marco",
+        "Ciccone, Marco",
+        "Romanoni, Andrea",
+        "Matteucci, Matteo"
       ],
-      "year": 2023,
-      "venue": "The 34th British Machine Vision Conference Proceedings (BMVC)",
+      "year": 2019,
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
       "volume": null,
       "pages": null,
       "doi": null,
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@inproceedings{lomurno2023discriminative,\n  author = {Lomurno, E. and Archetti, Alberto and Ausonio, F. and Matteucci, M.},\n  booktitle = {The 34th British Machine Vision Conference Proceedings (BMVC)},\n  title = {Discriminative adversarial privacy: balancing accuracy and membership privacy in neural networks},\n  year = {2023}\n}",
-      "citations": 7,
-      "selected": false
+      "bibtex": "@inproceedings{cannici2019asynchronous,\n  author = {Cannici, Marco and Ciccone, Marco and Romanoni, Andrea and Matteucci, Matteo},\n  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},\n  selected = {true},\n  title = {Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras},\n  year = {2019}\n}",
+      "citations": 222,
+      "selected": true
     },
     {
-      "key": "lomurno2023sgde",
+      "key": "visin2016reseg",
       "kind": "conference",
-      "title": "SGDE: Secure Generative Data Exchange for Cross-Silo Federated Learning",
+      "title": "ReSeg: A Recurrent Neural Network-Based Model for Semantic Segmentation",
       "authors": [
-        "Lomurno, E.",
-        "Archetti, Alberto",
-        "Cazzella, L.",
-        "Samele, S.",
-        "Di Perna, L.",
-        "Matteucci, M."
+        "Visin, Francesco",
+        "Ciccone, Marco",
+        "Romero, Adriana",
+        "Kastner, Kyle",
+        "Cho, Kyunghyun",
+        "Bengio, Yoshua",
+        "Matteucci, Matteo",
+        "Courville, Aaron"
       ],
-      "year": 2023,
-      "venue": "Proceedings of the 2022 5th International Conference on Artificial Intelligence and Pattern Recognition",
-      "volume": null,
-      "pages": "205--214",
-      "doi": "10.1145/3573942.3573974",
-      "arxiv": null,
-      "keywords": [],
-      "bibtex": "@inproceedings{lomurno2023sgde,\n  author = {Lomurno, E. and Archetti, Alberto and Cazzella, L. and Samele, S. and Di Perna, L. and Matteucci, M.},\n  booktitle = {Proceedings of the 2022 5th International Conference on Artificial Intelligence and Pattern Recognition},\n  doi = {10.1145/3573942.3573974},\n  pages = {205--214},\n  title = {SGDE: Secure Generative Data Exchange for Cross-Silo Federated Learning},\n  year = {2023}\n}",
-      "citations": 32,
-      "selected": false
-    },
-    {
-      "key": "stranieri2023drug",
-      "kind": "workshop",
-      "title": "Drug Inventory Control: Human Decisions versus Deep Reinforcement Learning",
-      "authors": [
-        "Stranieri, F.",
-        "Archetti, Alberto",
-        "Robbiano, E.",
-        "Kouki, C.",
-        "Stella, F."
-      ],
-      "year": 2023,
-      "venue": "CEUR Workshop Proceedings",
+      "year": 2016,
+      "venue": "IEEE Conference on Computer Vision and Pattern Recognition Workshops",
       "volume": null,
       "pages": null,
       "doi": null,
       "arxiv": null,
-      "keywords": [
-        "workshop"
+      "keywords": [],
+      "bibtex": "@inproceedings{visin2016reseg,\n  author = {Visin, Francesco and Ciccone, Marco and Romero, Adriana and Kastner, Kyle and Cho, Kyunghyun and Bengio, Yoshua and Matteucci, Matteo and Courville, Aaron},\n  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition Workshops},\n  selected = {true},\n  title = {{ReSeg}: A Recurrent Neural Network-Based Model for Semantic Segmentation},\n  year = {2016}\n}",
+      "citations": 451,
+      "selected": true
+    },
+    {
+      "key": "bonarini2014r2p",
+      "kind": "journal",
+      "title": "R2P: An Open Source Hardware and Software Modular Approach to Robot Prototyping",
+      "authors": [
+        "Bonarini, Andrea",
+        "Matteucci, Matteo",
+        "Migliavacca, Martino",
+        "Rizzi, Davide"
       ],
-      "bibtex": "@inproceedings{stranieri2023drug,\n  author = {Stranieri, F. and Archetti, Alberto and Robbiano, E. and Kouki, C. and Stella, F.},\n  booktitle = {CEUR Workshop Proceedings},\n  keywords = {workshop},\n  title = {Drug Inventory Control: Human Decisions versus Deep Reinforcement Learning},\n  year = {2023}\n}",
-      "citations": 0,
+      "year": 2014,
+      "venue": "Robotics and Autonomous Systems",
+      "volume": "62",
+      "pages": "1073--1084",
+      "doi": "10.1016/j.robot.2013.08.009",
+      "arxiv": null,
+      "keywords": [],
+      "bibtex": "@article{bonarini2014r2p,\n  author = {Bonarini, Andrea and Matteucci, Matteo and Migliavacca, Martino and Rizzi, Davide},\n  doi = {10.1016/j.robot.2013.08.009},\n  journal = {Robotics and Autonomous Systems},\n  number = {7},\n  pages = {1073--1084},\n  title = {{R2P}: An Open Source Hardware and Software Modular Approach to Robot Prototyping},\n  volume = {62},\n  year = {2014}\n}",
+      "citations": null,
       "selected": false
     },
     {
-      "key": "archetti2022neural",
-      "kind": "conference",
-      "title": "Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*",
+      "key": "maggi2010intrusions",
+      "kind": "journal",
+      "title": "Detecting Intrusions through System Call Sequence and Argument Analysis",
       "authors": [
-        "Archetti, Alberto",
-        "Cannici, M.",
-        "Matteucci, M."
+        "Maggi, Federico",
+        "Matteucci, Matteo",
+        "Zanero, Stefano"
       ],
-      "year": 2022,
-      "venue": "Machine Learning, Optimization, and Data Science (LOD 2021)",
-      "volume": null,
-      "pages": "596--610",
-      "doi": "10.1007/978-3-030-95467-3_43",
+      "year": 2010,
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "volume": "7",
+      "pages": "381--395",
+      "doi": "10.1109/TDSC.2008.69",
       "arxiv": null,
       "keywords": [],
-      "bibtex": "@inproceedings{archetti2022neural,\n  author = {Archetti, Alberto and Cannici, M. and Matteucci, M.},\n  booktitle = {Machine Learning, Optimization, and Data Science (LOD 2021)},\n  doi = {10.1007/978-3-030-95467-3_43},\n  pages = {596--610},\n  title = {Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*},\n  year = {2022}\n}",
-      "citations": 18,
+      "bibtex": "@article{maggi2010intrusions,\n  author = {Maggi, Federico and Matteucci, Matteo and Zanero, Stefano},\n  doi = {10.1109/TDSC.2008.69},\n  journal = {IEEE Transactions on Dependable and Secure Computing},\n  number = {4},\n  pages = {381--395},\n  title = {Detecting Intrusions through System Call Sequence and Argument Analysis},\n  volume = {7},\n  year = {2010}\n}",
+      "citations": 224,
       "selected": false
+    },
+    {
+      "key": "ceriani2009rawseeds",
+      "kind": "journal",
+      "title": "RAWSEEDS Ground Truth Collection Systems for Indoor Self-Localization and Mapping",
+      "authors": [
+        "Ceriani, Simone",
+        "Fontana, Giulio",
+        "Giusti, Alessandro",
+        "Marzorati, Daniele",
+        "Matteucci, Matteo",
+        "Migliore, Davide",
+        "Rizzi, Davide",
+        "Sorrenti, Domenico G.",
+        "Taddei, Paolo"
+      ],
+      "year": 2009,
+      "venue": "Autonomous Robots",
+      "volume": "27",
+      "pages": "353--371",
+      "doi": "10.1007/s10514-009-9156-5",
+      "arxiv": null,
+      "keywords": [],
+      "bibtex": "@article{ceriani2009rawseeds,\n  author = {Ceriani, Simone and Fontana, Giulio and Giusti, Alessandro and Marzorati, Daniele and Matteucci, Matteo and Migliore, Davide and Rizzi, Davide and Sorrenti, Domenico G. and Taddei, Paolo},\n  doi = {10.1007/s10514-009-9156-5},\n  journal = {Autonomous Robots},\n  number = {4},\n  pages = {353--371},\n  selected = {true},\n  title = {{RAWSEEDS} Ground Truth Collection Systems for Indoor Self-Localization and Mapping},\n  volume = {27},\n  year = {2009}\n}",
+      "citations": 208,
+      "selected": true
     }
   ],
   "metrics": {
-    "h_index": 7,
-    "i10_index": 5,
-    "total_citations": 164,
-    "scholar_id": "--kj4bcAAAAJ",
-    "fetched_at": "2026-06-30T09:11:53+00:00"
+    "h_index": 52,
+    "i10_index": 221,
+    "total_citations": 12490,
+    "scholar_id": "PdbEg5YAAAAJ",
+    "fetched_at": "2026-07-29T00:00:00+02:00"
   }
 }

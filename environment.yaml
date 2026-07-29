@@ -5,3 +5,4 @@ channels:
 dependencies:
   - python=3.12
   - poetry=2.4
+  - nodejs=22

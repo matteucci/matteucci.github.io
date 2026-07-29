@@ -1,39 +1,22 @@
-# Education, most recent first.
-# Each entry:
-#   degree      (required)
-#   org         (required) institution
-#   location    (optional)
-#   start, end  (required) years
-#   grade       (optional) e.g. "110/110 cum Laude"
-#   thesis      (optional) thesis title
-
-- degree: National Ph.D. in Artificial Intelligence for Industry 4.0
-  org: Politecnico di Torino
-  location: Italy
-  start: 2021
-  end: 2025
-  thesis: >
-    Federated Survival Analysis: Ensemble and Neural Methods for Distributed Time-to-Event Data
-
-- degree: Master of Science in Computer Science and Engineering
+- degree: Ph.D. in Computer Engineering and Automation
   org: Politecnico di Milano
-  location: Italy
-  start: 2018
-  end: 2021
-  grade: 110/110 cum Laude
-  thesis: >
-    Neural Weighted A*: Learning Graph Costs and Heuristics with Differentiable Anytime A*
+  location: Milan, Italy
+  start: 2000
+  end: 2003
+  thesis: Evolutionary Learning of Adaptive Models within a Bayesian Framework
 
-- degree: Bachelor's Degree in Computer Science and Engineering
+- degree: Master of Science in Knowledge Discovery and Data Mining
+  org: Carnegie Mellon University
+  location: Pittsburgh, PA, USA
+  start: 2001
+  end: 2002
+  thesis: "ELeaRNT: Evolutionary Learning of Rich Neural Network Topologies"
+
+- degree: Laurea in Computer Engineering
   org: Politecnico di Milano
-  location: Italy
-  start: 2015
-  end: 2018
-  grade: 110/110 cum Laude
-
-- degree: Diploma di Liceo Scientifico
-  org: Madonna della Neve
-  location: Italy
-  start: 2010
-  end: 2015
-  grade: 100/100
+  location: Milan, Italy
+  start: 1993
+  end: 1999
+  thesis: >
+    Rappresentazione della conoscenza fuzzy e a intervalli per algoritmi di
+    apprendimento per rinforzo applicati ad agenti situati

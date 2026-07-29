@@ -1,22 +1,22 @@
 {
-  "name": "old-money",
+  "name": "atlas",
   "colors": {
-    "navy": "#1A3A52",
-    "gold": "#B8860B",
-    "charcoal": "#2D2D2D",
-    "warmgray": "#8C8273",
-    "lightnavy": "#DCE1E6",
-    "paper": "#FBFAF7",
+    "navy": "#102C53",
+    "gold": "#4D87D4",
+    "charcoal": "#1F2937",
+    "warmgray": "#6B7280",
+    "lightnavy": "#E2E8F0",
+    "paper": "#FFFFFF",
     "sidebartext": "#FFFFFF"
   },
   "fonts": {
-    "display": "Cormorant Garamond",
-    "displayFallback": "Georgia, serif",
+    "display": "Manrope",
+    "displayFallback": "system-ui, sans-serif",
     "text": "Manrope",
     "textFallback": "system-ui, sans-serif"
   },
   "web": {
-    "maxWidth": "920px",
-    "radius": "2px"
+    "maxWidth": "960px",
+    "radius": "8px"
   }
 }

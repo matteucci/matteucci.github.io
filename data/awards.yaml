@@ -1,14 +1,35 @@
-# Awards and achievements, most recent first.
-# Each entry:
-#   title    (required)
-#   org      (optional) awarding body / venue
-#   year     (optional)
-#   note     (optional)
+- title: NVIDIA Academic Grant Award
+  org: NVIDIA
+  year: 2025
+  note: Four RTX PRO 6000 Blackwell Max-Q Workstation Edition GPUs
 
-- title: Special Mention for Best Paper
-  org: LOD 2021 — 7th International Conference on Machine Learning, Optimization, and Data Science
-  year: 2021
+- title: Leonardo Fibonacci Best Paper Award
+  org: 11th International Conference on Machine Learning, Optimization, and Data Science
+  year: 2025
+  note: Neuro-Symbolic Scene Graph Conditioning for Synthetic Image Dataset Generation
 
-- title: "Honours Programme: Scientific Research in Information Technology"
-  org: Politecnico di Milano
-  year: 2021
+- title: Outstanding Reviewer Award
+  org: British Machine Vision Conference
+  year: 2020
+
+- title: Best Paper Award
+  org: CVPR Workshop on Event-based Vision and Smart Cameras
+  year: 2019
+  note: Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras
+
+- title: Best Paper Award
+  org: DeepVision at CVPR
+  year: 2016
+  note: "ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation"
+
+- title: Antonio D'Auria Prize and Intesa Sanpaolo Startup Initiative
+  org: RobyWheelChair project
+  year: 2011
+
+- title: Dimitris N. Chorafas Foundation Award
+  org: Best Ph.D. thesis
+  year: 2003
+
+- title: Rotary Foundation Ambassadorial Scholarship
+  org: Rotary Foundation
+  year: 2001

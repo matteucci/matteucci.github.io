@@ -13,17 +13,17 @@ const base = SITE.base;
 
 // "At a glance" counters — derived from the same data/ + Scholar cache that
 // drives every other section, so they update on rebuild without manual edits.
-const teachingHours = teaching.reduce((sum, t) => sum + (t.hours ?? 0), 0);
 const glanceStats = [
-  { label: 'Publications', value: publications.length },
+  { label: 'Selected works', value: publications.length },
   metrics?.total_citations != null ? { label: 'Citations', value: metrics.total_citations } : null,
-  { label: 'Teaching Hours', value: teachingHours },
+  metrics?.h_index != null ? { label: 'h-index', value: metrics.h_index } : null,
 ].filter((s): s is { label: string; value: number } => s != null && s.value > 0);
 
 const scholarContact = profile.contacts.find((c) => c.icon === 'scholar');
 
 const bioParas = (profile.bio ?? profile.summary).trim().split(/\n\s*\n/);
 const nameWords = fullName.split(' ');
+const profileSurname = profile.name.trim().split(/\s+/).pop() ?? profile.name;
 
 // The website shows only the bib entries marked `selected = {true}` (the full
 // record lives in the downloadable CV). Falls back to everything if nothing
@@ -43,32 +43,41 @@ const webPubs = selectedPubs.length > 0 ? selectedPubs : publications;
     <!-- Inset hairline frame: the engraved-card border that sells the
          old-money look. Purely decorative, theme-accent colored. -->
     <div class="pointer-events-none absolute inset-3 border border-gold/25 sm:inset-5" aria-hidden="true"></div>
-    <div class="relative z-10 mx-auto max-w-content px-6 py-28 sm:py-36">
-      {profile.affiliation && (
-        <p class="mb-6 flex items-center gap-3 text-[0.68rem] uppercase tracking-[0.24em] text-white/60">
-          <span class="inline-block h-px w-10 bg-gold/80" aria-hidden="true"></span>
-          {profile.affiliation}
-        </p>
-      )}
-      <h1 class="hero-name font-display font-bold leading-none text-white mb-3"
-          style="font-size: clamp(1.9rem, 7.5vw, 4.5rem);">
-        {nameWords.map((w, i) => <span>{w}{i < nameWords.length - 1 ? ' ' : ''}</span>)}
-      </h1>
-      <p class="font-display text-2xl text-white/70 mb-2">{profile.title}</p>
-      {profile.tagline && (
-        <p class="text-sm uppercase tracking-[0.18em] text-gold mb-8">{profile.tagline}</p>
-      )}
-      <div class="flex flex-wrap gap-3 mt-8">
-        <a href={`${base}${cvPdfPath}`} target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded border border-gold bg-gold px-5 py-2.5 text-sm font-semibold text-navy no-underline transition-colors hover:bg-gold/90">
-          View CV
-        </a>
-        {profile.contacts.find((c) => c.icon === 'email') && (
-          <a href={profile.contacts.find((c) => c.icon === 'email')!.url!}
-             class="inline-flex items-center gap-2 rounded border border-white/25 px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-white/10 transition-colors">
-            Get in touch
-          </a>
+    <div class="relative z-10 mx-auto grid max-w-content items-center gap-12 px-6 py-24 md:grid-cols-[1fr_auto] sm:py-32">
+      <div>
+        {profile.affiliation && (
+          <p class="mb-6 flex items-center gap-3 text-[0.68rem] uppercase tracking-[0.24em] text-white/60">
+            <span class="inline-block h-px w-10 bg-gold/80" aria-hidden="true"></span>
+            {profile.affiliation}
+          </p>
         )}
+        <h1 class="hero-name font-display font-bold leading-none text-white mb-3"
+            style="font-size: clamp(1.9rem, 7.5vw, 4.5rem);">
+          {nameWords.map((w, i) => <span>{w}{i < nameWords.length - 1 ? ' ' : ''}</span>)}
+        </h1>
+        <p class="font-display text-2xl text-white/70 mb-2">{profile.title}</p>
+        {profile.tagline && (
+          <p class="text-sm uppercase tracking-[0.18em] text-gold mb-8">{profile.tagline}</p>
+        )}
+        <div class="flex flex-wrap gap-3 mt-8">
+          <a href={`${base}${cvPdfPath}`} target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded border border-gold bg-gold px-5 py-2.5 text-sm font-semibold text-navy no-underline transition-colors hover:bg-gold/90">
+            View CV
+          </a>
+          {profile.contacts.find((c) => c.icon === 'email') && (
+            <a href={profile.contacts.find((c) => c.icon === 'email')!.url!}
+               class="inline-flex items-center gap-2 rounded border border-white/25 px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-white/10 transition-colors">
+              Get in touch
+            </a>
+          )}
+        </div>
       </div>
+      <figure class="mx-auto hidden md:block">
+        <div class="rounded-full border border-gold/60 p-2 shadow-2xl">
+          <img src={`${base}img/matteo-matteucci.jpg`}
+               alt="Portrait of Matteo Matteucci"
+               class="h-48 w-48 rounded-full object-cover lg:h-56 lg:w-56" />
+        </div>
+      </figure>
     </div>
   </section>
   <div class="hero-divider" aria-hidden="true"></div>
@@ -129,7 +138,7 @@ const webPubs = selectedPubs.length > 0 ? selectedPubs : publications;
             <li>
               <p class="text-charcoal/90 leading-snug">
                 {p.authors.map((a, i) => (
-                  <span class={a.includes('Archetti') ? 'font-medium text-navy' : ''}>
+                  <span class={a.includes(profileSurname) ? 'font-medium text-navy' : ''}>
                     {a}{i < p.authors.length - 1 ? ', ' : ''}
                   </span>
                 ))}

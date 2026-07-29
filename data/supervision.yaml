@@ -1,67 +1,61 @@
-# Student supervision (thesis advising / co-advising), most recent first.
-# Each:
-#   student  (required)
-#   degree   (required) "MSc thesis" | "BSc thesis" | "Project"
-#   title    (required) thesis/project title
-#   year     (optional)
-#   role     (optional) e.g. "Co-advisor"
+# Representative doctoral supervision. The full record is available in the CV.
 
-# - student: <Student Name>
-#   degree: MSc thesis
-#   title: <Thesis title>
-#   year: 2025
-#   role: Co-advisor
-
-- student: "Pinar Erbil"
-  degree: MSc thesis
-  title: Deep Variational Contrastive Learning for Risk Stratification and Time-to-Event Estimation
+- student: Cristian Sbrolli
+  degree: Ph.D. student
+  title: Multimodal and generative learning for visual understanding
   year: 2026
-  role: Co-advisor
+  role: Advisor
 
-- student: "Marina Mastroleo"
-  degree: MSc thesis
-  title: "SurvKAN: Fully Parametric Survival Modeling with Kolmogorov-Arnold Networks"
+- student: Nico Catalano
+  degree: Ph.D. student
+  title: Few-shot learning and computer vision for precision agriculture
   year: 2026
-  role: Co-advisor
+  role: Advisor
 
-- student: "Sofia Perini"
-  degree: MSc thesis
-  title: Exploring multimodality in federated survival analysis
+- student: Eugenio Lomurno
+  degree: Ph.D. student
+  title: Reliable machine learning, synthetic data, and privacy
   year: 2026
-  role: Co-advisor
+  role: Advisor
 
-- student: "Emanuele Paesano"
-  degree: MSc thesis
-  title: A multimodal framework for survival analysis integrating clinical, genomic, histopathological and textual data
-  year: 2025
-  role: Co-advisor
+- student: Matteo Frosi
+  degree: Ph.D. student
+  title: 3D perception and SLAM with learned priors
+  year: 2026
+  role: Advisor
 
-- student: "Niccolò Maria Rizzi"
-  degree: MSc thesis
-  title: A generative pipeline for high-quality synthetic survival datasets
-  year: 2025
-  role: Co-advisor
-
-- student: "Gabriele Giusti"
-  degree: MSc thesis
-  title: Multi-Agent Reinforcement Learning for emergent molecular communication in diffusion-based environments
-  year: 2025
-  role: Co-advisor
-
-- student: "Andrea Menta"
-  degree: MSc thesis
-  title: Image restoration via Latent Neural Cellular Automata
-  year: 2023
-  role: Co-advisor
-
-- student: "Simone Cimmino"
-  degree: MSc thesis
-  title: A pipeline for company industrial sector classification from unstructured website content
+- student: Marco Cannici
+  degree: Ph.D.
+  title: Learning Efficient and Effective Representations for Event-based Cameras
   year: 2022
+  role: Advisor
+
+- student: Simone Mentasti
+  degree: Ph.D.
+  title: Embedded AI and sensor fusion for autonomous vehicles
+  year: 2022
+  role: Advisor
+
+- student: Andrea Romanoni
+  degree: Ph.D.
+  title: Incremental Large-Scale Visual 3D Mesh Reconstruction
+  year: 2017
+  role: Advisor
+
+- student: Francesco Visin
+  degree: Ph.D.
+  title: Deep recurrent neural networks for visual scene understanding
+  year: 2017
+  role: Advisor
+
+- student: Martino Migliavacca
+  degree: Ph.D.
+  title: The R2P framework for robot prototyping
+  year: 2014
   role: Co-advisor
 
-- student: "Sara Sacco"
-  degree: MSc thesis
-  title: "Analisi spettrale per il rilevamento di anomalie: studio sulla sopravvivenza degli estensimetri a corda per Snam S.p.A."
-  year: 2022
-  role: Co-advisor
+- student: Luigi Malagò
+  degree: Ph.D.
+  title: On the geometry of optimization based on the exponential family relaxation
+  year: 2011
+  role: Advisor

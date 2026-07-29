@@ -39,7 +39,7 @@ class Profile(BaseModel):
 
     @property
     def full_name(self) -> str:
-        """Name with suffix appended, e.g. ``Alberto Archetti, Ph.D.``."""
+        """Name with suffix appended, e.g. ``Matteo Matteucci, Ph.D.``."""
         return f"{self.name}, {self.suffix}" if self.suffix else self.name
 
     @property
@@ -218,4 +218,3 @@ class CVData(BaseModel):
     projects: list[Project] = Field(default_factory=list)
     publications: list[Publication] = Field(default_factory=list)
     metrics: ScholarMetrics | None = None
-

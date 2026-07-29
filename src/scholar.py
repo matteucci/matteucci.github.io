@@ -94,9 +94,9 @@ def append_new_publications(pubs: list[dict], bib_path) -> list[str]:
         if _norm(p["title"]) in existing_titles:
             continue
         existing_titles.add(_norm(p["title"]))
-        # Authors come from Scholar as "First Last and First Last"; bold-name
-        # handling in the CV keys off the literal "Archetti, Alberto" form, so we
-        # leave them as-is for you to tidy manually if needed.
+        # Authors come from Scholar as "First Last and First Last". Author-name
+        # highlighting is surname-based in the renderers, so leave the Scholar
+        # spelling as-is and tidy ambiguous names manually.
         blocks.append(
             f"\n@{p['type']}{{{p['key']},\n"
             f"  author    = {{{p['authors']}}},\n"

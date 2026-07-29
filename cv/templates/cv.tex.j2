@@ -46,7 +46,7 @@
     #2\end{minipage}\par\vspace{7pt}}
 
 #= FontAwesome icon per contact `icon` hint (matches the website's icon set). =#
-\BLOCK{set icons = {'email': '\\faEnvelope', 'github': '\\faGithub', 'linkedin': '\\faLinkedinIn', 'scholar': '\\faGraduationCap', 'instagram': '\\faInstagram'} }
+\BLOCK{set icons = {'email': '\\faEnvelope', 'github': '\\faGithub', 'linkedin': '\\faLinkedinIn', 'scholar': '\\faGraduationCap', 'instagram': '\\faInstagram', 'website': '\\faGlobe'} }
 \BLOCK{macro contactcell(c)}\BLOCK{if c.icon and c.icon in icons}{\small\color{gold}\VAR{icons[c.icon]}}\hspace{0.55em}\BLOCK{endif}{\small\color{charcoal}\BLOCK{if c.url}\href{\VAR{c.url}}{\VAR{c.value | tex}}\BLOCK{else}\VAR{c.value | tex}\BLOCK{endif}}\BLOCK{endmacro}
 
 \begin{document}
@@ -95,7 +95,7 @@
 {\mediumfont\large\color{navy}\VAR{label}}\par\vspace{4pt}
 \begin{enumerate}[leftmargin=1.6em, itemsep=4pt, label=\textcolor{gold}{[\arabic*]}]
 \BLOCK{for p in items}\item {\color{charcoal}%
-  \BLOCK{for a in p.authors}\BLOCK{if 'Archetti' in a}\textbf{\VAR{a | tex}}\BLOCK{else}\VAR{a | tex}\BLOCK{endif}\BLOCK{if not loop.last}, \BLOCK{endif}\BLOCK{endfor}
+  \BLOCK{for a in p.authors}\BLOCK{if 'Matteucci' in a}\textbf{\VAR{a | tex}}\BLOCK{else}\VAR{a | tex}\BLOCK{endif}\BLOCK{if not loop.last}, \BLOCK{endif}\BLOCK{endfor}
   (\VAR{p.year}). \textit{\VAR{p.title | tex}}.\BLOCK{if p.venue} \VAR{p.venue | tex}\BLOCK{if p.volume}, \VAR{p.volume | tex}\BLOCK{endif}\BLOCK{if p.pages}, pp.~\VAR{p.pages | replace('--', '–') | tex}\BLOCK{endif}.\BLOCK{endif}\BLOCK{if p.url} \href{\VAR{p.url}}{\small\color{gold}\BLOCK{if p.doi}\VAR{p.doi | tex}\BLOCK{else}arXiv:\VAR{p.arxiv | tex}\BLOCK{endif}}\BLOCK{endif}}
 \BLOCK{endfor}\end{enumerate}\vspace{4pt}
 \BLOCK{endif}
