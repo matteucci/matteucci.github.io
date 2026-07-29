@@ -9,7 +9,6 @@
 %% Page numbers in the footer for a multi-page document.
 \usepackage{fancyhdr}
 \usepackage{needspace}
-\usepackage{fontawesome5}
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[C]{\small\color{warmgray}\thepage}
@@ -45,9 +44,9 @@
   \begin{minipage}[t]{\dimexpr\linewidth-\cvyearcol-\cvgap\relax}\raggedright
     #2\end{minipage}\par\vspace{7pt}}
 
-#= FontAwesome icon per contact `icon` hint (matches the website's icon set). =#
-\BLOCK{set icons = {'email': '\\faEnvelope', 'github': '\\faGithub', 'linkedin': '\\faLinkedinIn', 'scholar': '\\faGraduationCap', 'instagram': '\\faInstagram', 'website': '\\faGlobe'} }
-\BLOCK{macro contactcell(c)}\BLOCK{if c.icon and c.icon in icons}{\small\color{gold}\VAR{icons[c.icon]}}\hspace{0.55em}\BLOCK{endif}{\small\color{charcoal}\BLOCK{if c.url}\href{\VAR{c.url}}{\VAR{c.value | tex}}\BLOCK{else}\VAR{c.value | tex}\BLOCK{endif}}\BLOCK{endmacro}
+#= Contact values are intentionally text-only so the CV has no icon-font
+   package dependency and compiles on a standard TeX Live installation. =#
+\BLOCK{macro contactcell(c)}{\small\color{charcoal}\BLOCK{if c.url}\href{\VAR{c.url}}{\VAR{c.value | tex}}\BLOCK{else}\VAR{c.value | tex}\BLOCK{endif}}\BLOCK{endmacro}
 
 \begin{document}
 
@@ -61,7 +60,7 @@
   \includegraphics[height=2.2cm]{\VAR{logo}}
 \end{minipage}
 
-%% Contact line under the name, icon + linked value. The Scholar profile is
+%% Contact line under the name. The Scholar profile is
 %% intentionally left out here — it lives next to the Publications heading,
 %% where the citation metrics it backs are shown.
 \BLOCK{set cv_cs = profile.contacts | selectattr('cv') | rejectattr('icon', 'equalto', 'scholar') | list}

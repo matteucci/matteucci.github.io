@@ -29,6 +29,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Tell GitHub Pages that this is a custom static-site build. Without this
+      # setup step, a repository configured for branch publishing may fall back
+      # to Jekyll and try to parse Astro front matter as YAML.
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -45,7 +51,7 @@ jobs:
         working-directory: website
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: website/dist
 
